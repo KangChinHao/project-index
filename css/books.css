@@ -1,0 +1,345 @@
+/*-------------------------背景顏色-----------------*/
+.background{
+    background-color: #FFFFE0;
+    width: 100%;
+    min-width: 1200px;
+}
+/*-----------------------區塊----------------------*/
+.area{
+    width: 100%;
+    min-width: 1200px;
+}
+/*-------header-------*/
+header{
+    width: 100%;
+    min-width: 1200px;
+}
+.container{
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+.container-imgbac{
+    width: 100%;
+    min-width: 1200px;
+    height: 113px;
+}
+.container-imgbac img{
+    min-width: 1200px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.menubar-background{
+    width: 100%;
+    min-width: 1200px;
+    height: 77px;
+    background-color: rgba(97, 65, 36, 0.85);
+    position: absolute;
+    justify-content: space-around;
+}
+.menubar{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+.menubar-logo img{
+    position: relative;
+    width: 141px;
+    height: 65px;
+    top: 7px;
+}
+.menubar-menu-search{
+    display: flex;
+    align-items: flex-end;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.menu-item{
+    margin: 0 10px;
+}
+.menu-item p{
+    color: rgba(249, 249, 249, 0.8);
+    font-family: 'SimSun';
+    font-style: normal;
+}
+.search{
+    margin-bottom: 10px;
+    position: relative;
+}
+.search-bar{
+    background-color: rgba(249, 249, 249, 0.4);
+    border: 0;
+    height: 22px;
+}
+.search-btn{
+    height: 24px;
+    background-color: rgba(217, 217, 217, 0.8);
+    outline:none;
+    border:0;
+    cursor:  pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.category-search{
+    width: 100%;
+    min-width: 1200px;
+    background-color:#614124;
+    position: relative;
+    bottom: 36px;
+}
+.category{
+    width: 1200px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    color:#FFFFFF; 
+    position: relative;
+}
+.category p{
+    font-family: 'SimSun';
+    font-size: 16px;
+}
+/*-----------------------------麵包屑------------------*/
+.bread{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bread a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: 'SimSun-ExtB';
+}
+.bread a:hover{
+    text-decoration: underline;
+}
+/*----------------------------書頁標籤-------------------*/
+.under-line{
+    width: 100%;
+    min-width: 1200px;
+    border-bottom: 1px solid black;
+}
+.bookmark{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    position: relative;
+}
+.bookmark-item{
+    font-family: 'SimSun-ExtB';
+    font-size: 16px;
+    color: #000000;
+    width: 75px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 5px 5px 0 0px;
+}
+#recommended{
+    border-right: 1px solid black;
+}
+/*---------------書架區---------------*/
+.bookshelf-background{
+    width: 100%;
+    min-width: 1200px;
+    background:linear-gradient(#FFFFE0 63%,  #EBD8BF 37%);
+}
+.bookshelf-area{
+    width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+}
+.bookshelf-area h2{
+    font-family: 'SimSun-ExtB';
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.bookshelf{
+    width: 1200px;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.books{
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.book-item{
+    width: 200px;
+    text-align: center;
+}
+.rank{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.top{
+    font-family: 'Lustria';
+    font-size: 24px;
+    color: rgba(102, 70, 32, 0.8);
+}
+.top-number{
+    font-family: 'Microsoft YaHei';
+    background-color:rgba(102, 70, 32, 0.8) ;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+.top-number p{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 24px;
+}
+.book-img{
+    width: 200px;
+    height: 280px;
+}
+.book-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.book-item h3{
+    font-family: 'MS Gothic';
+    font-size: 20px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px 0;
+}
+.slogan{
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: rgba(242, 49, 49, 0.8);
+    margin: 10px 0;
+}
+.auther-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    margin: 10px 0;
+}
+.auther{
+    color: #1A9E9E;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+    align-items: baseline;
+    margin: 10px 0;
+}
+.price-number{
+    color: rgba(255, 0, 0, 1);
+    font-size: 16px;
+}
+.add-shopping-car{
+    width: 100px;
+    height: 20px;
+    font-family: 'Microsoft YaHei';
+    background-color: #AB7148;
+    margin: 10px auto;
+}
+.add-shopping-car p{
+    color: #FFFFFF;
+}
+.morebooks{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    position: relative;
+}
+.morebooks a{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+.morebooks::after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    right: -5px;
+    transform-origin:bottom;
+    transform: skewX(20deg);
+}
+/*--------------二手書專區標題--------*/
+.oldbook-area{
+    width: 100%;
+    min-width: 1200px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: rgba(97, 65, 36, 0.85);
+    display: flex;
+    align-items: center;
+}
+.oldbook-area h2{
+    width: 200px;
+    margin: auto;
+    font-family: 'SimSun-ExtB';
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+/*---------回收的理由---------*/
+.purpose{
+    width: 1200px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    align-items: center;
+}
+.purposeimg{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    left: 50px;
+}
+.purposeimg img{
+    width: 100%;
+    height: 100%;
+}
+.purposetext{
+    height: 160px;
+    text-align: center;
+    position: relative;
+}
+.purposetext h3{
+    font-family: 'SimSun-ExtB';
+    font-size: 32px;
+}
+.purposetext p{
+    width: 500px;
+    background-color: rgba(132, 79, 28, 0.9);
+    margin-top: 20px;
+    padding: 20px;
+}

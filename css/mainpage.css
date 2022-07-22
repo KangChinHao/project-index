@@ -1,0 +1,741 @@
+/*-------header-------*/
+header{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 750px;
+    margin: auto;
+}
+.container-imgbac{
+    width: 100%;
+    height: 100%;
+}
+.container-imgbac img{
+    min-width: 1200px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.menubar-background{
+    width: 100%;
+    height: 77px;
+    background-color: rgba(97, 65, 36, 0.85);
+    position: absolute;
+    justify-content: space-around;
+}
+.menubar{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+.menubar-logo img{
+    position: relative;
+    width: 141px;
+    height: 65px;
+    top: 7px;
+}
+.menubar-menu-search{
+    display: flex;
+    align-items: flex-end;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.menu-item{
+    margin: 0 10px;
+}
+.menu-item p{
+    color: rgba(249, 249, 249, 0.8);
+    font-family: 'SimSun';
+    font-style: normal;
+}
+.search{
+    margin-bottom: 10px;
+    position: relative;
+}
+.search-bar{
+    background-color: rgba(249, 249, 249, 0.4);
+    border: 0;
+    height: 22px;
+}
+.search-btn{
+    height: 24px;
+    background-color: rgba(217, 217, 217, 0.8);
+    outline:none;
+    border:0;
+    cursor:  pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.change-img{
+    display: flex;
+    justify-content: center;
+}
+.img-name{
+    width: 100px;
+    height: 21px;
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+    left: 50px;
+}
+.img-name p{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.circle-group{
+    width: 100px;
+    height: 21px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    bottom: 22px;
+    right: 50px;
+    justify-content: space-around;
+}
+.circle-page1{
+    width: 16px;
+    height: 16px;
+    background-color: rgba(97, 65, 36, 1);
+    border-radius: 50%;
+}
+.circle-page2{
+    width: 16px;
+    height: 16px;
+    background-color: rgba(97, 65, 36, 0.6);
+    border-radius: 50%;
+}
+.circle-page3{
+    width: 16px;
+    height: 16px;
+    background-color: rgba(97, 65, 36, 0.4);
+    border-radius: 50%;
+}
+/*------關於我們------*/
+.about-us-background{
+    width: 100%;
+    background-color: #FFFFE0;
+}
+.about-us{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.about-text{
+    display: flex;
+    align-items: center;
+    padding: 75px;
+}
+.about{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.align-block{
+    display: block;
+    height: 182px;
+    width: 30px;
+    background-color: rgba(221, 147, 61, 0.6);
+}
+.text-area{
+    width: 400px;
+}
+.text-area h2{
+    font-family: 'SimSun-ExtB';
+    font-size: 32px;
+    text-align: center;
+}
+.text-area p{
+    font-family: 'SimSun';
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    line-height: 125.06%;
+}
+.seemore{
+    display: flex;
+    justify-content: end;
+    
+} 
+.seemore-block{
+    width: 100px;
+    height: 20px;
+    background-color: rgba(64, 34, 24, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seemore a{
+    color: rgba(249, 249, 249, 0.9);
+    text-decoration: none;
+}
+.about-img{
+    align-items: center;
+    padding: 75px;
+}
+.img-area{
+    width: 450px;
+}
+.img-area img{
+    width: 100%;
+}
+/*---------------------------展演空間介紹----------------------------*/
+.performance-background{
+    width: 100%;
+    background-color: #FFFFE0;
+}
+.performance-space{
+    width: 1200px;
+    margin: auto;
+}
+.performance-area .title{
+    background-color: rgba(97, 65, 36, 0.6);
+    width: 200px;
+    height: 40px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.performance-area .title h2{
+    font-family: 'SimSun-ExtB';
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.performance-pic-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.third-pic{
+    height: 400px;
+    position: relative;
+}
+.third-pic img{
+    width: 100%;
+    height: 100%;
+}
+.third-pic .arrow-left{
+    width: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+}
+.main-pic{
+    height: 400px;
+}
+.main-pic img{
+    width: 100%;
+    height: 100%;
+}
+.second-pic{
+    height: 400px;
+    position: relative;
+}
+.second-pic img{
+    width: 100%;
+    height: 100%;
+}
+.second-pic .arrow-right{
+    width: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+}
+.pic-introduce-area{
+    text-align: center;
+}
+.pic-introduce{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(70, 47, 25, 0.85);
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    left: 120px;
+    bottom: 120px;
+}
+.pic-introduce h2{
+    font-family: 'SimSun-ExtB';
+    font-size: 24px;
+}
+.pic-introduce p{
+    font-family: 'SimSun';
+    font-size: 16px;
+    margin: 10px 0px;
+    line-height: 125.06%;
+}
+.watch-in-detail{
+    display: flex;
+    justify-content: end;
+}
+.watch-in-detail-block a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+.watch-in-detail-block .link-line{
+    display: block;
+    margin-top: 5px;
+    width: 100px;
+    border-top: 1px solid #FFDEBF;
+}
+/*-------------------------------活動資訊---------------------------------*/
+.event-news-background{
+    width: 100%;
+    background-color: #FFFFE0;
+}
+.event-news{
+    width: 1200px;
+    margin: auto;
+}
+.event-title-area{
+    padding: 20px 0;
+}
+.event-title{
+    background-color: rgba(97, 65, 36, 0.6);
+    width: 200px;
+    height: 40px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.event-title h2{
+    color: #FFFFFF;
+    font-family: 'SimSun-ExtB';
+    font-size: 28px;
+    padding-left: 25px;
+}
+.calendar-bar{
+    height: 300px;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.show-day{
+    width: 200px;
+    background-color:#B0834D;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.show-day .year{
+    width: 128px;
+    font-family: 'SimSun-ExtB';
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.show-day .month{
+    width: 128px;
+    font-family: 'SimSun-ExtB';
+    font-size: 36px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.show-day .day{
+    font-family: 'SimSun-ExtB';
+    font-size: 64px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.show-day .week{
+    font-family: 'SimSun-ExtB';
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.calendar{
+    width: 380px;
+}
+.year-month-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.year-month-search p{
+    font-family: 'SimSun-ExtB';
+    font-size: 20px;
+    margin: 0 10px;
+}
+.border-line{
+    border-top: 1px solid black;
+    width: 194px;
+    text-align: center;
+    margin: auto;
+}
+.calendar-table{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.calendar-table table{
+    width: 100%;
+}
+.calendar-table table tr{
+    line-height: 30px;
+}
+.calendar-table table tr th{
+    font-family: 'SimSun-ExtB';
+}
+.calendar-table table tr td{
+    font-family: 'SimSun';
+}
+.calendar-serach{
+    width: 280px;
+}
+.calendar-serach-place{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.calendar-serach-place p{
+    margin: 5px 0;
+}
+.calendar-serach-place .choose-time{
+    display: flex;
+    align-content: center;
+}
+.calendar-serach-place .choose-time img{
+    display: block;
+    position: relative;
+    right: 24px;
+}
+.calendar-serach-place input{
+    width: 236px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+.calendar-serach-place .type{
+    width: 236px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.type p{
+    cursor:  pointer;
+}
+.type .all-type{
+    width: 73px;
+    background-color: #D9D9D9;
+}
+.type .exhibition{
+    width: 73px;
+    background-color: #D9D9D9;
+}
+.type .speech{
+    width: 73px;
+    background-color: #D9D9D9;
+}
+.search-button{
+    width: 236px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    margin-top: 20px;
+    cursor:  pointer;
+    margin-bottom: 0;
+}
+.search-button img{
+    display: block;
+}
+/*--------------------------------活動圖片區--------------------------*/
+.exhibition-background{
+    width: 100%;
+    background-color: #FFFFE0;
+}
+.exhibition{
+    width: 1200px;
+    margin: auto;
+}
+.exhibition h3{
+    text-align: center;
+    font-family: 'SimSun-ExtB';
+    font-size: 32px;
+    color: #000000;
+}
+.exhibion-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.exhibition-item{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.exhibition-img{
+    width: 298px;
+    height: 120px;
+}
+.exhibition-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.exhibition-item h4{
+    margin-top: 5px;
+    font-family: 'SimSun-ExtB';
+    font-size: 20px;
+}
+.exhibition-item p{
+    margin-top: 30px;
+    font-family: 'Sitara';
+    font-size: 14px;
+}
+/*------------------------------所有書籍----------------------------*/
+.all-books-background{
+    width: 100%;
+    background-color: #FFFFE0;
+}
+.all-books{
+    width: 1200px;
+    margin: auto;
+    background-color: #FFFFE0;
+}
+.all-books-title{
+    background-color: rgba(97, 65, 36, 0.6);
+    width: 200px;
+    height: 40px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.all-books-title h2{
+    font-family: 'SimSun-ExtB';
+    font-size: 28px;
+    color: #FFFFFF;
+    padding-left: 25px;
+}
+.book-search{
+    width: 100%;
+    background-color: rgba(97, 65, 36, 0.85);
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0 0 0;
+}
+.book-classification{
+    display: flex;
+    align-items: center;
+}
+.classification{
+    margin: 5px 10px ;
+    font-family: 'SimSun';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.book-search-place{
+    position: relative;
+    align-items: center;
+}
+/*------------------------------------書架區----------------------------*/
+.bookshelf-background{
+    width: 100%;
+    background:linear-gradient(#FFFFE0 65%,  #EBD8BF 35%);
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.bookshelf{
+    width: 1200px;
+    margin: auto;
+}
+.bookshelf h3{
+    font-family: 'SimSun-ExtB';
+    font-size: 24px;
+    align-items: center;
+}
+.book-img{
+    width: 150px;
+    height: 212px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.book-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.book-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+.change-column-left{
+    position: absolute;
+}
+.change-column-right{
+    position: absolute;
+    right: 0;
+}
+.book-presentation-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.book{
+    width: 300px;
+    text-align: center;
+}
+.book h4{
+    font-family: 'MS Gothic';
+    font-size: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 17px
+}
+.book .slogan{
+    font-family: 'MS Gothic';
+    font-size: 14px;
+    color: rgba(242, 49, 49, 0.8);
+    line-height: 17px;
+    margin: 10px 0;
+}
+.book .author{
+    font-family: 'MS Gothic';
+    font-size: 14px;
+    line-height: 14px;
+    color: #1A9E9E;
+}
+.price-and-discount{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.discount{
+    font-family: 'MS Gothic';
+    font-size: 12px;
+    line-height: 10px;
+}
+.price{
+    font-family: 'MS Gothic';
+    font-size: 14px;
+    line-height: 10px;
+    color: #FF0000;
+}
+.morebooks-background{
+    width: 100%;
+    background-color: #FFFFE0;
+}
+.morebooks{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    position: relative;
+}
+.morebooks a{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+.morebooks::after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    right: -5px;
+    transform-origin:bottom;
+    transform: skewX(20deg);
+}
+/*-------------------------------聯絡方式------------------------*/
+.contact-method-background{
+    width: 100%;
+    background-color: #FFFFE0;
+    padding-top: 120px;
+    height: 700px;
+}
+.contact-method{
+    width: 1200px;
+    margin: auto;
+}
+.contact-title{
+    background-color: rgba(97, 65, 36, 0.6);
+    width: 200px;
+    height: 40px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.contact-title h2{
+    font-family: 'SimSun-ExtB';
+    font-size: 28px;
+    color: #FFFFFF;
+    padding-left: 25px;
+}
+.contact-information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.contact{
+    font-family: 'MS Gothic';
+    font-size: 20px;
+    line-height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.near-by{
+    padding-left: 30px;
+}
+/*--------------------------Footer---------------------------*/
+footer{
+    width: 100%;
+    background-color:#614124;
+}
+.footer-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+}
+.copy-right{
+    margin: 20px 0;
+    line-height: 22px;
+}
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-menu a{
+    margin: 0 5px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-family: 'SimSun';
+    font-size: 16px;
+}
+.copy-right p{
+    margin:0 5px ;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'SimSun';
+    font-size: 16px;
+}
