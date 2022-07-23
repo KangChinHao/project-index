@@ -311,6 +311,7 @@ header{
 /*---------回收的理由---------*/
 .purpose{
     width: 1200px;
+    height: 500px;
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -322,7 +323,8 @@ header{
     width: 400px;
     height: 450px;
     position: relative;
-    left: 50px;
+    left: 170px;
+    z-index: 1;
 }
 .purposeimg img{
     width: 100%;
@@ -332,14 +334,106 @@ header{
     height: 160px;
     text-align: center;
     position: relative;
+    right: 100px;
+    top: 150px;
 }
 .purposetext h3{
     font-family: 'SimSun-ExtB';
     font-size: 32px;
 }
-.purposetext p{
-    width: 500px;
+.textarea{
+    width: 550px;
     background-color: rgba(132, 79, 28, 0.9);
+}
+.purposetext p{
+    height: 150px;
     margin-top: 20px;
+    padding: 20px 20px 20px 40px;
+    display: flex;
+    align-items: center;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.74);;
+}
+/*-------------------收購書籍------------------*/
+.donatebook{
+    width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+}
+.donatebook h2{
+    font-size: 24px;
+    font-family: 'SimSun-ExtB'
+}
+.process{
+    text-align: center;
+    padding: 60px;
+}
+.processtitle{
+    background-color: rgba(132, 79, 28, 0.9);
+    padding: 10px;
+}
+.processtitle h3{
+    color:#FFFFFF;
+    font-size: 24px;
+}
+.processtext{
+    background-color: #EDE3D0;
     padding: 20px;
+}
+.processtext p{
+    color: rgba(107, 107, 107, 0.85);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'MS Gothic';
+}
+.processtext .title{
+    color: #FF8A00;
+    font-size: 18px;
+    font-family: 'MS Gothic';
+    line-height: 22px;
+}
+.question{
+    background-color: #4E3824;
+    padding: 20px 0;
+}
+.question p{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+/*---------------footer----------*/
+footer{
+    width: 100%;
+    background-color:#614124;
+}
+.footer-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+}
+.copy-right{
+    margin: 20px 0;
+    line-height: 22px;
+}
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-menu a{
+    margin: 0 5px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-family: 'SimSun';
+    font-size: 16px;
+}
+.copy-right p{
+    margin:0 5px ;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'SimSun';
+    font-size: 16px;
 }
