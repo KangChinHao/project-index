@@ -9,10 +9,12 @@ header{
 }
 .container-imgbac{
     width: 100%;
+    height: 77px;
 }
 .container-imgbac img{
     min-width: 1200px;
     width: 100%;
+    height: 100%;
     display: block;
 }
 .menubar-background{
@@ -46,10 +48,11 @@ header{
 .menu-item{
     margin: 0 10px;
 }
-.menu-item p{
+.menu-item a{
     color: rgba(249, 249, 249, 0.8);
     font-family: 'SimSun';
     font-style: normal;
+    text-decoration: none;
 }
 .search{
     margin-bottom: 10px;
