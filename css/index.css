@@ -671,37 +671,56 @@ header{
     width: 1200px;
     margin: auto;
 }
-.contact-title{
-    background-color: rgba(97, 65, 36, 0.6);
-    width: 200px;
-    height: 40px;
-    padding-left: 60px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.contact-title h2{
-    font-family: 'SimSun-ExtB';
-    font-size: 28px;
-    color: #FFFFFF;
-    padding-left: 25px;
-}
-.contact-information{
+.connetction{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 160px;
+    padding-bottom: 150px;
     justify-content: space-around;
-    padding-top: 100px;
 }
-.contact{
-    font-family: 'MS Gothic';
-    font-size: 20px;
-    line-height: 44px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.near-by{
+.connetctiontext{
     padding-left: 30px;
+    border-left: 2px solid #D9A765;
+}
+.connetctiontext .title{
+    height:30px;
+    border-bottom: 1px dashed gray;
+    padding: 10px 0;
+}
+.connetctiontext .title h2{
+    font-size: 28px;
+    font-family: 'SimSun-ExtB';
+    line-height: 30px
+}
+.connetction-item{
+    height: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    line-height: 26px;
+}
+.connetction-category{
+    text-align: center;
+    width: 50px;
+    background-color: rgba(132, 79, 28, 0.9);
+}
+.connetction-category p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'SimSun-ExtB';
+}
+.connetction-detail p{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'SimSun-ExtB';
+}
+.connetctionimg{
+    width: 500px;
+    height: 300px;
+}
+.connetctionimg img{
+    width: 100%;
+    height: 100%;
 }
 /*--------------------------Footer---------------------------*/
 footer{
