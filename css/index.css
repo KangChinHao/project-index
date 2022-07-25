@@ -50,7 +50,7 @@ header{
 }
 .menu-item a{
     color: rgba(249, 249, 249, 0.8);
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-style: normal;
     text-decoration: none;
 }
@@ -148,12 +148,12 @@ header{
     width: 400px;
 }
 .text-area h2{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 32px;
     text-align: center;
 }
 .text-area p{
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 18px;
     text-align: center;
     margin: 20px;
@@ -207,7 +207,7 @@ header{
     text-align: center;
 }
 .performance-area .title h2{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 28px;
     color: #FFFFFF;
 }
@@ -267,11 +267,11 @@ header{
     bottom: 120px;
 }
 .pic-introduce h2{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 24px;
 }
 .pic-introduce p{
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
     margin: 10px 0px;
     line-height: 125.06%;
@@ -313,7 +313,7 @@ header{
 }
 .event-title h2{
     color: #FFFFFF;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 28px;
     padding-left: 25px;
 }
@@ -335,26 +335,26 @@ header{
 }
 .show-day .year{
     width: 128px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 28px;
     color: #FFFFFF;
     margin: 10px 0;
 }
 .show-day .month{
     width: 128px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 36px;
     color: #FFFFFF;
     margin: 10px 0;
 }
 .show-day .day{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 64px;
     color: #FFFFFF;
     margin: 10px 0;
 }
 .show-day .week{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 28px;
     color: #FFFFFF;
     margin: 10px 0;
@@ -368,7 +368,7 @@ header{
     justify-content: center;
 }
 .year-month-search p{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 20px;
     margin: 0 10px;
 }
@@ -391,10 +391,10 @@ header{
     line-height: 30px;
 }
 .calendar-table table tr th{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .calendar-table table tr td{
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
 }
 .calendar-serach{
     width: 280px;
@@ -466,7 +466,7 @@ header{
 }
 .exhibition h3{
     text-align: center;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 32px;
     color: #000000;
 }
@@ -490,12 +490,12 @@ header{
 }
 .exhibition-item h4{
     margin-top: 5px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 20px;
 }
 .exhibition-item p{
     margin-top: 30px;
-    font-family: 'Sitara';
+    font-family: 'Noto Sans TC';
     font-size: 14px;
 }
 /*------------------------------所有書籍----------------------------*/
@@ -518,7 +518,7 @@ header{
     text-align: center;
 }
 .all-books-title h2{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 28px;
     color: #FFFFFF;
     padding-left: 25px;
@@ -536,7 +536,7 @@ header{
 }
 .classification{
     margin: 5px 10px ;
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
     color: #FFFFFF;
 }
@@ -556,7 +556,7 @@ header{
     margin: auto;
 }
 .bookshelf h3{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 24px;
     align-items: center;
 }
@@ -595,20 +595,20 @@ header{
     text-align: center;
 }
 .book h4{
-    font-family: 'MS Gothic';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     line-height: 17px
 }
 .book .slogan{
-    font-family: 'MS Gothic';
+    font-family: 'Noto Sans TC';
     font-size: 14px;
     color: rgba(242, 49, 49, 0.8);
     line-height: 17px;
     margin: 10px 0;
 }
 .book .author{
-    font-family: 'MS Gothic';
+    font-family: 'Noto Sans TC';
     font-size: 14px;
     line-height: 14px;
     color: #1A9E9E;
@@ -621,12 +621,12 @@ header{
     margin-top: 10px;
 }
 .discount{
-    font-family: 'MS Gothic';
+    font-family: 'Noto Sans TC';
     font-size: 12px;
     line-height: 10px;
 }
 .price{
-    font-family: 'MS Gothic';
+    font-family: 'Noto Sans TC';
     font-size: 14px;
     line-height: 10px;
     color: #FF0000;
@@ -689,7 +689,7 @@ header{
 }
 .connetctiontext .title h2{
     font-size: 28px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     line-height: 30px
 }
 .connetction-item{
@@ -707,12 +707,12 @@ header{
 .connetction-category p{
     color: #ffffff;
     font-size: 20px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .connetction-detail p{
     font-size: 20px;
     margin-left: 10px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .connetctionimg{
     width: 500px;
@@ -750,12 +750,12 @@ footer{
     margin: 0 5px;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }
 .copy-right p{
     margin:0 5px ;
     color: rgba(255, 255, 255, 0.8);
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }

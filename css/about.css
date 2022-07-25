@@ -64,7 +64,7 @@ header{
 }
 .menu-item a{
     color: rgba(249, 249, 249, 0.8);
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-style: normal;
     text-decoration: none;
 }
@@ -105,14 +105,14 @@ header{
 }
 .corporate-philosophy h2{
     font-size: 32px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .corporate-philosophy p{
     width: 600px;
     margin: auto;
     padding-top: 20px;
     line-height: 32px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 /*-------------------設施介紹---------*/
 .facility{
@@ -143,7 +143,7 @@ header{
 }
 .facilitytext h3{
     color: #ffffff;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 18px;
 }
 .facilityimg{
@@ -176,7 +176,7 @@ header{
 }
 .connetctiontext .title h2{
     font-size: 28px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     line-height: 30px
 }
 .connetction-item{
@@ -194,12 +194,12 @@ header{
 .connetction-category p{
     color: #ffffff;
     font-size: 20px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .connetction-detail p{
     font-size: 20px;
     margin-left: 10px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .connetctionimg{
     width: 500px;
@@ -237,12 +237,12 @@ footer{
     margin: 0 5px;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }
 .copy-right p{
     margin:0 5px ;
     color: rgba(255, 255, 255, 0.8);
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }

@@ -64,7 +64,7 @@ header{
 }
 .menu-item a{
     color: rgba(249, 249, 249, 0.8);
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-style: normal;
     text-decoration: none;
 }
@@ -106,7 +106,7 @@ header{
     position: relative;
 }
 .category p{
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }
 /*-----------------------------麵包屑------------------*/
@@ -120,7 +120,7 @@ header{
     text-decoration: none;
     color: black;
     font-size: 13px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .bread a:hover{
     text-decoration: underline;
@@ -139,7 +139,7 @@ header{
     position: relative;
 }
 .bookmark-item{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
     color: #000000;
     width: 75px;
@@ -163,7 +163,7 @@ header{
     padding-top: 80px;
 }
 .bookshelf-area h2{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 24px;
     color: rgba(0, 0, 0, 0.85);
 }
@@ -193,12 +193,12 @@ header{
     align-items: center;
 }
 .top{
-    font-family: 'Lustria';
+    font-family: 'Noto Sans TC';
     font-size: 24px;
     color: rgba(102, 70, 32, 0.8);
 }
 .top-number{
-    font-family: 'Microsoft YaHei';
+    font-family: 'Noto Sans TC';
     background-color:rgba(102, 70, 32, 0.8) ;
     border-radius: 100%;
     width: 24px;
@@ -221,14 +221,14 @@ header{
     display: block;
 }
 .book-item h3{
-    font-family: 'MS Gothic';
+    font-family: 'Noto Sans TC';
     font-size: 20px;
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 10px 0;
 }
 .slogan{
-    font-family: 'Microsoft YaHei';
+    font-family: 'Noto Sans TC';
     font-size: 14px;
     color: rgba(242, 49, 49, 0.8);
     margin: 10px 0;
@@ -237,7 +237,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: 'Microsoft YaHei';
+    font-family: 'Noto Sans TC';
     font-size: 14px;
     margin: 10px 0;
 }
@@ -247,7 +247,7 @@ header{
 .price{
     display: flex;
     justify-content: center;
-    font-family: 'Microsoft YaHei';
+    font-family: 'Noto Sans TC';
     font-size: 12px;
     align-items: baseline;
     margin: 10px 0;
@@ -259,7 +259,7 @@ header{
 .add-shopping-car{
     width: 100px;
     height: 20px;
-    font-family: 'Microsoft YaHei';
+    font-family: 'Noto Sans TC';
     background-color: #AB7148;
     margin: 10px auto;
 }
@@ -304,7 +304,7 @@ header{
 .oldbook-area h2{
     width: 200px;
     margin: auto;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 24px;
     color: #FFFFFF;
     text-align: center;
@@ -339,7 +339,7 @@ header{
     top: 150px;
 }
 .purposetext h3{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 32px;
 }
 .textarea{
@@ -363,7 +363,7 @@ header{
 }
 .donatebook h2{
     font-size: 24px;
-    font-family: 'SimSun-ExtB'
+    font-family: 'Noto Sans TC'
 }
 .process{
     text-align: center;
@@ -385,12 +385,12 @@ header{
     color: rgba(107, 107, 107, 0.85);
     font-size: 18px;
     line-height: 22px;
-    font-family: 'MS Gothic';
+    font-family: 'Noto Sans TC';
 }
 .processtext .title{
     color: #FF8A00;
     font-size: 18px;
-    font-family: 'MS Gothic';
+    font-family: 'Noto Sans TC';
     line-height: 22px;
 }
 .question{
@@ -429,12 +429,12 @@ footer{
     margin: 0 5px;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }
 .copy-right p{
     margin:0 5px ;
     color: rgba(255, 255, 255, 0.8);
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }

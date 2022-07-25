@@ -64,7 +64,7 @@ header{
 }
 .menu-item a{
     color: rgba(249, 249, 249, 0.8);
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-style: normal;
     text-decoration: none;
 }
@@ -100,7 +100,7 @@ header{
     text-decoration: none;
     color: black;
     font-size: 13px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .bread a:hover{
     text-decoration: underline;
@@ -128,7 +128,7 @@ header{
 }
 .event-title h2{
     color: #FFFFFF;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 28px;
     padding-left: 25px;
 }
@@ -150,26 +150,26 @@ header{
 }
 .show-day .year{
     width: 128px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 28px;
     color: #FFFFFF;
     margin: 10px 0;
 }
 .show-day .month{
     width: 128px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 36px;
     color: #FFFFFF;
     margin: 10px 0;
 }
 .show-day .day{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 64px;
     color: #FFFFFF;
     margin: 10px 0;
 }
 .show-day .week{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 28px;
     color: #FFFFFF;
     margin: 10px 0;
@@ -183,7 +183,7 @@ header{
     justify-content: center;
 }
 .year-month-search p{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
     font-size: 20px;
     margin: 0 10px;
 }
@@ -206,10 +206,10 @@ header{
     line-height: 30px;
 }
 .calendar-table table tr th{
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .calendar-table table tr td{
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
 }
 .calendar-serach{
     width: 280px;
@@ -274,7 +274,7 @@ header{
 .area h2{
     font-size: 24px;
     padding: 40px;
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
 }
 .event{
     display: flex;
@@ -303,16 +303,16 @@ header{
 }
 .eventinfo h3{
     font-size: 18px;
-    font-family: 'SimSun-ExtB';
+    font-family: 'Noto Sans TC';
 }
 .speaker{
     font-size: 16px;
     color: rgba(110, 110, 110, 0.729);
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
 }
 .eventinfo p{
     flex-grow: 1;
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }
 .datelocation{
@@ -323,11 +323,11 @@ header{
 }
 .location{
     font-size: 16px;
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
 }
 .date{
     font-size: 16px;
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
 }
 /*-----------換頁-----------*/
 .changepage{
@@ -370,12 +370,12 @@ footer{
     margin: 0 5px;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }
 .copy-right p{
     margin:0 5px ;
     color: rgba(255, 255, 255, 0.8);
-    font-family: 'SimSun';
+    font-family: 'Noto Sans TC';
     font-size: 16px;
 }
