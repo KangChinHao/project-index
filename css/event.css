@@ -1,0 +1,381 @@
+/*-------------------------背景顏色-----------------*/
+.background{
+    background-color: #FFFFE0;
+    width: 100%;
+    min-width: 1200px;
+}
+/*-----------------------區塊----------------------*/
+.area{
+    width: 1200px;
+    margin: auto;
+}
+/*-------header-------*/
+header{
+    width: 100%;
+    min-width: 1200px;
+}
+.container{
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+.container-imgbac{
+    width: 100%;
+    min-width: 1200px;
+    height: 77px;
+}
+.container-imgbac img{
+    min-width: 1200px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.menubar-background{
+    width: 100%;
+    min-width: 1200px;
+    height: 77px;
+    background-color: rgba(97, 65, 36, 0.85);
+    position: absolute;
+    justify-content: space-around;
+}
+.menubar{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+.menubar-logo img{
+    position: relative;
+    width: 141px;
+    height: 65px;
+    top: 7px;
+}
+.menubar-menu-search{
+    display: flex;
+    align-items: flex-end;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.menu-item{
+    margin: 0 10px;
+}
+.menu-item a{
+    color: rgba(249, 249, 249, 0.8);
+    font-family: 'SimSun';
+    font-style: normal;
+    text-decoration: none;
+}
+.search{
+    margin-bottom: 10px;
+    position: relative;
+}
+.search-bar{
+    background-color: rgba(249, 249, 249, 0.4);
+    border: 0;
+    height: 22px;
+}
+.search-btn{
+    height: 24px;
+    background-color: rgba(217, 217, 217, 0.8);
+    outline:none;
+    border:0;
+    cursor:  pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*-----------------------------麵包屑------------------*/
+.bread{
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+}
+.bread a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: 'SimSun-ExtB';
+}
+.bread a:hover{
+    text-decoration: underline;
+}
+/*-------------------------------活動資訊---------------------------------*/
+.event-news-background{
+    width: 100%;
+    background-color: #FFFFE0;
+}
+.event-news{
+    width: 1200px;
+    margin: auto;
+}
+.event-title-area{
+    padding: 20px 0;
+}
+.event-title{
+    background-color: rgba(97, 65, 36, 0.6);
+    width: 200px;
+    height: 40px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.event-title h2{
+    color: #FFFFFF;
+    font-family: 'SimSun-ExtB';
+    font-size: 28px;
+    padding-left: 25px;
+}
+.calendar-bar{
+    height: 300px;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.show-day{
+    width: 200px;
+    background-color:#B0834D;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.show-day .year{
+    width: 128px;
+    font-family: 'SimSun-ExtB';
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.show-day .month{
+    width: 128px;
+    font-family: 'SimSun-ExtB';
+    font-size: 36px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.show-day .day{
+    font-family: 'SimSun-ExtB';
+    font-size: 64px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.show-day .week{
+    font-family: 'SimSun-ExtB';
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.calendar{
+    width: 380px;
+}
+.year-month-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.year-month-search p{
+    font-family: 'SimSun-ExtB';
+    font-size: 20px;
+    margin: 0 10px;
+}
+.border-line{
+    border-top: 1px solid black;
+    width: 194px;
+    text-align: center;
+    margin: auto;
+}
+.calendar-table{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.calendar-table table{
+    width: 100%;
+}
+.calendar-table table tr{
+    line-height: 30px;
+}
+.calendar-table table tr th{
+    font-family: 'SimSun-ExtB';
+}
+.calendar-table table tr td{
+    font-family: 'SimSun';
+}
+.calendar-serach{
+    width: 280px;
+}
+.calendar-serach-place{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.calendar-serach-place p{
+    margin: 5px 0;
+}
+.calendar-serach-place .choose-time{
+    display: flex;
+    align-content: center;
+}
+.calendar-serach-place .choose-time img{
+    display: block;
+    position: relative;
+    right: 24px;
+}
+.calendar-serach-place input{
+    width: 236px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+.calendar-serach-place .type{
+    width: 236px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.type p{
+    cursor:  pointer;
+}
+.type .all-type{
+    width: 73px;
+    background-color: #D9D9D9;
+}
+.type .exhibition{
+    width: 73px;
+    background-color: #D9D9D9;
+}
+.type .speech{
+    width: 73px;
+    background-color: #D9D9D9;
+}
+.search-button{
+    width: 236px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    margin-top: 20px;
+    cursor:  pointer;
+    margin-bottom: 0;
+}
+.search-button img{
+    display: block;
+}
+/*---------------------活動區塊-----------*/
+.area h2{
+    font-size: 24px;
+    padding: 40px;
+    font-family: 'SimSun';
+}
+.event{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 0;
+}
+.eventimg{
+    width: 250px;
+    height: 150px;
+}
+.eventimg img{
+    width: 100%;
+    height: 100%;
+}
+.eventinfo{
+    width: 700px;
+    line-height: 22px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #B0834D;
+}
+.eventinfo h3{
+    font-size: 18px;
+    font-family: 'SimSun-ExtB';
+}
+.speaker{
+    font-size: 16px;
+    color: rgba(110, 110, 110, 0.729);
+    font-family: 'SimSun';
+}
+.eventinfo p{
+    flex-grow: 1;
+    font-family: 'SimSun';
+    font-size: 16px;
+}
+.datelocation{
+    height: 22px;
+    margin-top: -22px;
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    font-size: 16px;
+    font-family: 'SimSun';
+}
+.date{
+    font-size: 16px;
+    font-family: 'SimSun';
+}
+/*-----------換頁-----------*/
+.changepage{
+    width: 1200px;
+    padding: 20px 0;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+.changeblocks input{
+    background-color: #FFFFE0;
+    border: 1px solid rgba(0, 0, 0, 0.367);
+    cursor: pointer;
+}
+/*---------------footer---------------*/
+footer{
+    width: 100%;
+    background-color:#614124;
+}
+.footer-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+}
+.copy-right{
+    margin: 20px 0;
+    line-height: 22px;
+}
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-menu a{
+    margin: 0 5px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-family: 'SimSun';
+    font-size: 16px;
+}
+.copy-right p{
+    margin:0 5px ;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'SimSun';
+    font-size: 16px;
+}
