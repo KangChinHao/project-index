@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset css.css">
+    <link
+      rel="stylesheet"
+      href="./package/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/indexRWD.css">
+
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu_switch" class="menu_checkbox">
+        <label for="menu_switch" class="menu_switch">
+            <span class="burger_line"></span>
+            <span class="burger_line"></span>
+            <span class="burger_line"></span>
+        </label>
+        <h1 class="logo">
+            <a href="#"><img src="./image/logo150x70.png" alt="logo"></a>
+        </h1>
+        <ul class="menu">
+            <div class="search_row">
+                <li class="search">
+                    <div class="search_item">
+                        <input class="search_bar" type="text" placeholder="圖書搜尋">
+                        <button class="search_btn"><img src="./image/icons8-search-30 (2).png" alt="search-icon"></button>
+                    </div>
+                </li>
+            </div>
+            <div class="nav_items">
+                <li class="nav_item"><a href="./about.html">關於我們<br>About</a></li>
+                <li class="nav_item"><a href="./event.html">活動資訊<br>Event</a></li>
+                <li class="nav_item"><a href="./books.html">所有書籍<br>Books</a></li>
+                <li class="nav_item phone_type"><a href="./member.html">會員中心<br>Member</a></li>
+            </div>
+        </ul>
+    </header>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./image/E6u8WWoVEAEmqAj.png" alt="#">書架劇場</div>
+          <div class="swiper-slide"><img src="https://picsum.photos/300/200/?random=10"></div>
+          <div class="swiper-slide"><img src="https://picsum.photos/300/200/?random=10"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    <!-- Swiper JS -->
+    <script src="./package/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 10000000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      
+    </script>
+</body>
+</html>
