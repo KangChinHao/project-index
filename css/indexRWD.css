@@ -38,33 +38,33 @@ header{
 .menu_switch span:nth-child(1){
     top: 9px;
     transform: rotate(0deg);
-    transition: top 1s 1s, transform 1s 0s;
+    transition: top 1s .5s, transform 1s 0s;
 }
 #menu_switch:checked ~ .menu_switch span:nth-child(1){
     top: 19px;
     transform: rotate(405deg);
-    transition: top 1s 1s, transform 1s 2s;
+    transition: top .5s .5s, transform 1s 1s;
 }
 .menu_switch span:nth-child(2){
     top: 0;
     bottom: 0;
     margin: auto;
     opacity: 1;
-    transition: 1s;
+    transition: .5s;
 }
 #menu_switch:checked ~ .menu_switch span:nth-child(2){
     opacity: 0;
-    transition: 1s;
+    transition: .5s;
 }
 .menu_switch span:nth-child(3){
     bottom: 9px;
     transform: rotate(0deg);
-    transition: bottom 1s 1s, transform 1s 0s;
+    transition: bottom 1s .5s, transform 1s 0s;
 }
 #menu_switch:checked ~ .menu_switch span:nth-child(3){
     bottom: 19px;
     transform: rotate(495deg);
-    transition: bottom 1s 1s, transform 1s 2s;
+    transition: bottom .5s .5s, transform 1s 1s;
 }
 /*-------*/
 .logo{
@@ -72,17 +72,55 @@ header{
     left: 20px;
 }
 .menu{
-    display: none;
-    background-color: #3a3a3aab;
+    background-color: #3a3a3af3;
     width: 100%;
     height: 800px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -1000px;
+    left: 0px;
     z-index: 2;
+    opacity: 0;
+    transition: top .5s 1s , opacity 1s 0s;
 }
 #menu_switch:checked ~ .menu{
-    display: block;
+    top: 0;
+    opacity: 1;
+    animation: fade_in 2s;
+    animation-timing-function: linear;
+}
+@keyframes fade_in{
+    0%{
+        opacity: 0;
+        top: -1000px;
+    }
+    5%{
+        top: 0px;
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.5;
+        top: 0;
+    }
+    33.333333%{
+        opacity: 0.6;
+        top: 0;
+    }
+    50%{
+        opacity: 0.7;
+        top: 0;
+    }
+    66.666666%{
+        opacity: 0.8;
+        top: 0;
+    }
+    75%{
+        opacity: 0.9;
+        top: 0;
+    }
+    100%{
+        opacity: 1;
+        top: 0;
+    }
 }
 .menu li a{
     display: block;
@@ -93,6 +131,9 @@ header{
     font-size: 20px;
     text-align: center;
     border-bottom: 3px solid #ffffff;
+}
+.member_icon{
+    display: none;
 }
 .search{
     display: block;
@@ -128,7 +169,7 @@ header{
     position: relative;
 }
 .swiper-wrapper{
-    height:650px;
+    height:92vh;
 }
 .swiper-slide {
   text-align: center;
@@ -175,9 +216,20 @@ header{
         z-index: 2;
         justify-content: flex-end;
         align-items: center;
+        padding: 0 40px;
+        opacity: 1;
+        transition:none;
     }
     .nav_items{
         display: flex;
+        align-items: center;
+    }
+    .member_icon{
+        display: block;
+    }
+    .nav_item a img{
+        width: 22px;
+        height: 22px;
     }
     .menu_switch{
         display: none;
@@ -188,10 +240,14 @@ header{
         margin: 0px 20px 0px 0px;
         color: #ffffff;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         border-bottom: 0;
-        width: 100px;
+    }
+    .nav_item:nth-child(4){
+        width: 22px;
+        margin-right: 15px;
+        margin-left: 10px;
     }
     .search_row{
         display: flex;
@@ -206,12 +262,28 @@ header{
     .search_bar{
         height: 20px;
         color: black;
-        width: 200px;
+        width: 150px;
     }
     .search_item{
         flex-direction: row-reverse;
     }
     .phone_type{
         display: none;
+    }
+}
+@media screen and (min-width:1024px) {
+    .phone_type{
+        display: block;
+    }
+    .member_icon{
+        display: none;
+    }
+}
+@media screen and (min-width:1200px) {
+    .menu{
+        padding: 0 100px 0 0;
+    }
+    .menu li a{
+        margin: 0px 40px 0px 0px;
     }
 }
