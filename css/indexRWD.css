@@ -1,9 +1,9 @@
 body{
-    background-color: #ffffe0;
+    background-color: #FFEDD8;
 }
 header{
     width: 100%;
-    background-color: rgba(97, 65, 36, 0.85);
+    background-color: #583101cb;
     position: absolute;
     z-index: 999;
     top: 0;
@@ -126,7 +126,7 @@ header{
     display: block;
     padding: 20px;
     margin: 0px 20px 10px;
-    color: #ffffff;
+    color: #ffffffee;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
@@ -135,6 +135,7 @@ header{
 .member_icon{
     display: none;
 }
+/*---搜尋列---*/
 .search{
     display: block;
     padding: 20px;
@@ -154,13 +155,30 @@ header{
     font-size: 20px;
     height: 40px;
     outline: none;
-    color: #ffffff;
+    color: #ffffffee;
+}
+input::placeholder {
+    color: #ffffffee;
+    vertical-align: baseline;
+}
+::-webkit-input-placeholder {
+    color: #ffffffee;
+} 
+:-ms-input-placeholder {
+    color: #ffffffee;
+}
+::-moz-placeholder {
+    color: #ffffffee;
+    opacity: 1;
 }
 .search_btn{
     outline: none;
     display: block;
     border: 0;
     background-color: transparent;
+}
+.search_btn img{
+    width: 22px;
 }
 /* 輪播圖尺寸 */
 .swiper{
@@ -169,15 +187,14 @@ header{
     position: relative;
 }
 .swiper-wrapper{
-    height:92vh;
+    height:96vh;
 }
 .swiper-slide {
   text-align: center;
   font-size: 42px;
-  color: #ffffffbc;
+  color: #ffffff;
   font-family: 'Noto Sans TC';
   letter-spacing: 20px;
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,8 +215,79 @@ header{
   height: 100%;
   object-fit: cover;
   position: absolute;
+  min-width: 100%;
   z-index: -99;
 }
+/*---關於我們---*/
+.about{
+    padding-top: 80px;
+}
+.group{
+    padding: 20px;
+    background:linear-gradient(#FFEDD8 55%,  #F3D5B5 45%);
+}
+.group h2{
+    font-size: 32px;
+    font-family: 'Noto Sans TC Medium';
+}
+.group h2::after{
+    display: block;
+    content: '';
+    width: 2.5rem;
+    min-width: 65px;
+    height: 3px;
+    border-radius: 999px;
+    background-color: black;
+    margin-top: 5px;
+}
+.about_img{
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+}
+.about_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about h3{
+    padding-top: 30px;
+    font-size: 24px;
+    font-family:'Noto Sans TC Regular';
+
+}
+.about p{
+    padding: 20px 0;
+    width: 100%;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Noto Sans TC Light';
+}
+.seemore{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.about a{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 24px;
+    transition: all .5s;
+}
+.about a:hover{
+    background-color: #E7BC91;
+    color: #ffffff;
+    transition: all .5s;
+}
+/*---展演空間介紹---*/
+/* performance */
 
 @media screen and (min-width :768px) {
     header{
@@ -238,10 +326,8 @@ header{
         display: block;
         padding: 0px;
         margin: 0px 20px 0px 0px;
-        color: #ffffff;
         text-decoration: none;
         font-size: 18px;
-        text-align: center;
         border-bottom: 0;
     }
     .nav_item:nth-child(4){
@@ -264,9 +350,6 @@ header{
         color: black;
         width: 150px;
     }
-    .search_item{
-        flex-direction: row-reverse;
-    }
     .phone_type{
         display: none;
     }
@@ -278,6 +361,10 @@ header{
     .member_icon{
         display: none;
     }
+    .logo{
+        position: absolute;
+        left: 40px;
+    }
 }
 @media screen and (min-width:1200px) {
     .menu{
@@ -285,5 +372,9 @@ header{
     }
     .menu li a{
         margin: 0px 40px 0px 0px;
+    }
+    .logo{
+        position: absolute;
+        left: 80px;
     }
 }
