@@ -71,17 +71,45 @@
     </div>
   </section>
   <!-- 展演空間介紹 -->
-  <div class="swiper">
+  <div class="performance_space">
+    <h3>展演空間介紹</h3>
+  </div>
+  <div class="swiper Swiper2">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">
+        <img src="./image/El_Ateneo_Grand_Splendid,_Buenos_Aires_(38796014605).jpg" alt="大劇場">
+        <div class="space_intro">
+          <h4>大劇場</h4>
+          <p>運輸模式會員不再品質是怎麼中間體現，企業醫生成為電視劇手冊尷尬模擬僅僅做什麼，觀念執法第一個雜誌，相對進行公佈最佳避免經過從事你能範圍為什麼。</p>
+          <div class="more_detail">
+            <a href="./about.html">了解更多</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./image/bookstorespace2.png">
+        <div class="space_intro">
+          <h4>書架劇場</h4>
+          <p>總體深刻財產日記數字新技術，壓縮你看哪裡保存開了能不能，電視台花園數量值得生氣也會，配合商務設為沉默剛才甚至明確他不，你可以我在，不禁事實。</p>
+          <div class="more_detail">
+            <a href="./about.html">了解更多</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./image/bookstorespace3.png">
+        <div class="space_intro">
+          <h4>舞台空間</h4>
+          <p>奇蹟答案加上學科看起來先進性效益，你還免費電影轎車小遊戲措施熟悉，放心他還這裡下午招商筆記本一面口氣，英雄圖文指出走到國產，微笑報告娛樂見。</p>
+          <div class="more_detail">
+            <a href="./about.html">了解更多</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
-    <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   </div>
@@ -107,6 +135,27 @@
       effect: 'fade',
       followFinger: false,
       grabCursor: true,
+      rewind: true,
+    });
+  </script>
+  <script>
+    var swiper = new Swiper(".Swiper2", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 500000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      effect: 'fade',
+      followFinger: false,
       rewind: true,
     });
   </script>

@@ -1,7 +1,8 @@
-body{
+body {
     background-color: #FFEDD8;
 }
-header{
+
+header {
     width: 100%;
     background-color: #583101cb;
     position: absolute;
@@ -10,12 +11,14 @@ header{
     left: 0;
     height: 72px;
 }
+
 /*--------漢堡------*/
-#menu_switch{
+#menu_switch {
     display: none;
 }
-.menu_switch{
-    background-color:transparent;
+
+.menu_switch {
+    background-color: transparent;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -25,6 +28,7 @@ header{
     cursor: pointer;
     z-index: 3;
 }
+
 .burger_line {
     width: 30px;
     height: 2px;
@@ -35,94 +39,112 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-.menu_switch span:nth-child(1){
+
+.menu_switch span:nth-child(1) {
     top: 9px;
     transform: rotate(0deg);
     transition: top 1s .5s, transform 1s 0s;
 }
-#menu_switch:checked ~ .menu_switch span:nth-child(1){
+
+#menu_switch:checked~.menu_switch span:nth-child(1) {
     top: 19px;
     transform: rotate(405deg);
     transition: top .5s .5s, transform 1s 1s;
 }
-.menu_switch span:nth-child(2){
+
+.menu_switch span:nth-child(2) {
     top: 0;
     bottom: 0;
     margin: auto;
     opacity: 1;
     transition: .5s;
 }
-#menu_switch:checked ~ .menu_switch span:nth-child(2){
+
+#menu_switch:checked~.menu_switch span:nth-child(2) {
     opacity: 0;
     transition: .5s;
 }
-.menu_switch span:nth-child(3){
+
+.menu_switch span:nth-child(3) {
     bottom: 9px;
     transform: rotate(0deg);
     transition: bottom 1s .5s, transform 1s 0s;
 }
-#menu_switch:checked ~ .menu_switch span:nth-child(3){
+
+#menu_switch:checked~.menu_switch span:nth-child(3) {
     bottom: 19px;
     transform: rotate(495deg);
     transition: bottom .5s .5s, transform 1s 1s;
 }
+
 /*-------*/
-.logo{
+.logo {
     position: absolute;
     left: 20px;
 }
-.menu{
+
+.menu {
     background-color: #3a3a3af3;
     width: 100%;
-    height: 800px;
+    height: 100vh;
     position: absolute;
     top: -1000px;
     left: 0px;
     z-index: 2;
     opacity: 0;
-    transition: top .5s 1s , opacity 1s 0s;
+    transition: top .5s 1s, opacity 1s 0s;
 }
-#menu_switch:checked ~ .menu{
+
+#menu_switch:checked~.menu {
     top: 0;
     opacity: 1;
     animation: fade_in 2s;
     animation-timing-function: linear;
 }
-@keyframes fade_in{
-    0%{
+
+@keyframes fade_in {
+    0% {
         opacity: 0;
         top: -1000px;
     }
-    5%{
+
+    5% {
         top: 0px;
         opacity: 0;
     }
-    25%{
+
+    25% {
         opacity: 0.5;
         top: 0;
     }
-    33.333333%{
+
+    33.333333% {
         opacity: 0.6;
         top: 0;
     }
-    50%{
+
+    50% {
         opacity: 0.7;
         top: 0;
     }
-    66.666666%{
+
+    66.666666% {
         opacity: 0.8;
         top: 0;
     }
-    75%{
+
+    75% {
         opacity: 0.9;
         top: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
         top: 0;
     }
 }
-.menu li a{
+
+.menu li a {
     display: block;
     padding: 20px;
     margin: 0px 20px 10px;
@@ -132,23 +154,27 @@ header{
     text-align: center;
     border-bottom: 3px solid #ffffff;
 }
-.member_icon{
+
+.member_icon {
     display: none;
 }
+
 /*---搜尋列---*/
-.search{
+.search {
     display: block;
     padding: 20px;
     margin: 60px 20px 10px;
     border-bottom: 3px solid #ffffff;
 }
-.search_item{
+
+.search_item {
     display: flex;
     justify-content: center;
 }
-.search_bar{
+
+.search_bar {
     margin: 0;
-    padding:0;
+    padding: 0;
     border: 0;
     background-color: transparent;
     width: 100%;
@@ -157,80 +183,94 @@ header{
     outline: none;
     color: #ffffffee;
 }
+
 input::placeholder {
     color: #ffffffee;
     vertical-align: baseline;
 }
+
 ::-webkit-input-placeholder {
     color: #ffffffee;
-} 
+}
+
 :-ms-input-placeholder {
     color: #ffffffee;
 }
+
 ::-moz-placeholder {
     color: #ffffffee;
     opacity: 1;
 }
-.search_btn{
+
+.search_btn {
     outline: none;
     display: block;
     border: 0;
     background-color: transparent;
 }
-.search_btn img{
+
+.search_btn img {
     width: 22px;
 }
+
 /* 輪播圖尺寸 */
-.swiper{
+.swiper {
     width: 100%;
     height: 100%;
     position: relative;
 }
-.swiper-wrapper{
-    height:96vh;
+
+.swiper-wrapper {
+    height: 96vh;
 }
+
 .swiper-slide {
-  text-align: center;
-  font-size: 42px;
-  color: #ffffff;
-  font-family: 'Noto Sans TC';
-  letter-spacing: 20px;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+    text-align: center;
+    font-size: 42px;
+    color: #ffffff;
+    font-family: 'Noto Sans TC';
+    letter-spacing: 20px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
+
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  min-width: 100%;
-  z-index: -99;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    min-width: 100%;
+    z-index: -99;
 }
+
 /*---關於我們---*/
-.about{
+.about {
     padding-top: 80px;
 }
-.group{
+
+.group {
     padding: 20px;
-    background:linear-gradient(#FFEDD8 55%,  #F3D5B5 45%);
+    background: linear-gradient(#FFEDD8 55%, #F3D5B5 45%);
 }
-.group h2{
+
+.group h2 {
     font-size: 32px;
     font-family: 'Noto Sans TC Medium';
 }
-.group h2::after{
+
+.group h2::after {
     display: block;
     content: '';
     width: 2.5rem;
@@ -240,23 +280,27 @@ input::placeholder {
     background-color: black;
     margin-top: 5px;
 }
-.about_img{
+
+.about_img {
     width: 100%;
     height: 300px;
     padding-top: 20px;
 }
-.about_img img{
+
+.about_img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.about h3{
+
+.about h3 {
     padding-top: 30px;
     font-size: 24px;
-    font-family:'Noto Sans TC Regular';
+    font-family: 'Noto Sans TC Regular';
 
 }
-.about p{
+
+.about p {
     padding: 20px 0;
     width: 100%;
     line-height: 22px;
@@ -264,12 +308,14 @@ input::placeholder {
     font-size: 18px;
     font-family: 'Noto Sans TC Light';
 }
-.seemore{
+
+.seemore {
     display: flex;
     justify-content: center;
     padding-top: 20px;
 }
-.about a{
+
+.about a {
     width: 200px;
     height: 50px;
     line-height: 50px;
@@ -281,19 +327,88 @@ input::placeholder {
     font-size: 24px;
     transition: all .5s;
 }
-.about a:hover{
+
+.about a:hover {
     background-color: #E7BC91;
     color: #ffffff;
     transition: all .5s;
 }
+
 /*---展演空間介紹---*/
 /* performance */
-
+.performance_space{
+    text-align: center;
+    padding: 60px 0 0;
+    font-size: 28px;
+    font-family: 'Noto Sans TC Medium';
+}
+.Swiper2{
+    height: 600px;
+    margin-top: 40px;
+}
+.space_intro{
+    width: 380px;
+    height: 200px;
+    background-color: #a47148ce;
+    margin-top: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.space_intro h4{
+    padding-top: 10px;
+    font-size: 28px;
+    font-family: 'Noto Sans TC Regular';
+    color: #ffffffc9;
+}
+.space_intro p{
+    padding: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-family: 'Noto Sans TC Light';
+    color: #ffffffc9;
+    flex-grow: 1;
+}
+.space_intro a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.more_detail{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.more_detail a{
+    color: #ffffff;
+    position: relative;
+}
+.more_detail a:hover::after{
+    content: '';
+    top: 22px;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    background-color: #ffffff;
+    animation: ltr 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes ltr{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 100%;
+    }
+}
 @media screen and (min-width :768px) {
-    header{
+    header {
         display: flex;
     }
-    .menu{
+
+    .menu {
         display: flex;
         background-color: transparent;
         width: 100%;
@@ -306,23 +421,28 @@ input::placeholder {
         align-items: center;
         padding: 0 40px;
         opacity: 1;
-        transition:none;
+        transition: none;
     }
-    .nav_items{
+
+    .nav_items {
         display: flex;
         align-items: center;
     }
-    .member_icon{
+
+    .member_icon {
         display: block;
     }
-    .nav_item a img{
+
+    .nav_item a img {
         width: 22px;
         height: 22px;
     }
-    .menu_switch{
+
+    .menu_switch {
         display: none;
     }
-    .menu li a{
+
+    .menu li a {
         display: block;
         padding: 0px;
         margin: 0px 20px 0px 0px;
@@ -330,50 +450,61 @@ input::placeholder {
         font-size: 18px;
         border-bottom: 0;
     }
-    .nav_item:nth-child(4){
+
+    .nav_item:nth-child(4) {
         width: 22px;
         margin-right: 15px;
         margin-left: 10px;
     }
-    .search_row{
+
+    .search_row {
         display: flex;
         order: 1;
     }
-    .search{
+
+    .search {
         display: flex;
         padding: 0;
         margin: 0;
         border-bottom: 0;
     }
-    .search_bar{
+
+    .search_bar {
         height: 20px;
         color: black;
         width: 150px;
     }
-    .phone_type{
+
+    .phone_type {
         display: none;
     }
 }
+
 @media screen and (min-width:1024px) {
-    .phone_type{
+    .phone_type {
         display: block;
     }
-    .member_icon{
+
+    .member_icon {
         display: none;
     }
-    .logo{
+
+    .logo {
         position: absolute;
         left: 40px;
     }
 }
+
 @media screen and (min-width:1200px) {
-    .menu{
+    .menu {
         padding: 0 100px 0 0;
     }
-    .menu li a{
+
+    .menu li a {
         margin: 0px 40px 0px 0px;
     }
-    .logo{
+
+    .logo {
         position: absolute;
         left: 80px;
     }
