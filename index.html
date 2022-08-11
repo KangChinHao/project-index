@@ -1,741 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>閱樹|首頁</title>
-    <link rel="stylesheet" href="./css/reset css.css">
-    <link rel="stylesheet" href="./css/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首頁 | 閱樹</title>
+  <link rel="stylesheet" href="./css/reset css.css">
+  <link rel="stylesheet" href="./package/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/indexRWD.css">
+
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <div class="menubar-background">
-                <div class="menubar">
-                    <div class="menubar-logoarea">
-                        <div class="menubar-logo">
-                            <a href="./index.html"><img src="./image/logo.png" alt="logo"></a>
-                        </div>
-                    </div>
-                    <div class="menubar-menu-search">
-                        <div class="menu">
-                            <div class="menu-item">
-                                <a href="./about.html">關於我們<br>
-                                About</a>
-                            </div>
-                            <div class="menu-item">
-                                <a href="./books.html"> 所有書籍<br>
-                                Books</a>
-                            </div>
-                            <div class="menu-item">
-                                <a href="./event.html"> 活動資訊<br>
-                                    Events</a>
-                            </div>
-                            <div class="menu-item">
-                                <a href="#"> 會員中心<br>
-                                Member</a>
-                            </div>
-                        </div>
-                        <div class="search">
-                            <input class="search-bar" type="text" placeholder="圖書搜尋">
-                            <button class="search-btn"><img src="./image/icons8-search-30 (2).png" alt="search-icon"></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-imgbac">
-                <img src="./image/E6u8WWoVEAEmqAj.jfif" alt="書架劇場">
-            </div>
-            <div class="change-img">
-                <div class="img-name">
-                    <p>1F 書架劇場</p> 
-                </div>
-                <div class="circle-group">
-                    <div class="circle-page1"> </div>
-                    <div class="circle-page2"> </div>
-                    <div class="circle-page3"> </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="about-us-background">
-        <div class="about-us">
-            <div class="about-text">
-                <div class="about">
-                    <div class="align-block"> </div>
-                    <div class="text-area">
-                        <h2>關於我們</h2>
-                        <p>本店以永續發展、環境保護為發展理念，致力推廣回收再利用。店內除了新書以外，也會舉辦各項展覽與演講，以及辦理二手書的回收業務...</p>
-                        <div class="seemore">
-                            <div class="seemore-block">
-                                <a href="./about.html">>>>了解更多</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about-img">
-                <div class="img-area">
-                    <img src="./image/susan-q-yin-2JIvboGLeho-unsplash.jpg" alt="關於我們">
-                </div>
-            </div>
-        </div>
+  <!-- 導覽列 -->
+  <header>
+    <input type="checkbox" id="menu_switch" class="menu_checkbox">
+    <label for="menu_switch" class="menu_switch">
+      <span class="burger_line"></span>
+      <span class="burger_line"></span>
+      <span class="burger_line"></span>
+    </label>
+    <h1 class="logo">
+      <a href="#"><img src="./image/logo150x70.png" alt="logo"></a>
+    </h1>
+    <ul class="menu">
+      <div class="search_row">
+        <li class="search">
+          <div class="search_item">
+            <input class="search_bar" type="text" placeholder="圖書搜尋" style="color:#ffffffee"
+              onfocus="this.placeholder=''" onblur="this.placeholder='圖書搜尋'">
+            <button class="search_btn"><img src="./image/Search.png" alt="search-icon"></button>
+          </div>
+        </li>
+      </div>
+      <div class="nav_items">
+        <li class="nav_item"><a href="./about.html">關於我們<br>About</a></li>
+        <li class="nav_item"><a href="./event.html">活動資訊<br>Event</a></li>
+        <li class="nav_item"><a href="./books.html">所有書籍<br>Books</a></li>
+        <li class="nav_item member_icon"><a href="./books.html"><img src="./image/Member.png" alt="會員中心"></a></li>
+        <li class="nav_item phone_type"><a href="./member.html">會員中心<br>Member</a></li>
+      </div>
+    </ul>
+  </header>
+  <!-- Banner Swiper -->
+  <div class="swiper Swiper1">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./image/E6u8WWoVEAEmqAj.png" alt="書架劇場">書架劇場</div>
+      <div class="swiper-slide"><img src="./image/banner2.png" alt="大劇場">大劇場</div>
+      <div class="swiper-slide"><img src="./image/banner3.png" alt="書籍呈列區">書籍呈列區</div>
     </div>
-    <div class="performance-background">
-        <div class="performance-space">
-            <div class="performance-area">
-                <div class="title">
-                    <h2>展演空間介紹</h2>
-                </div>
-            </div>
-            <div class="performance-pic-area">
-                <div class="third-pic">
-                    <img src="./image/20201215_1008 1.png" alt="左圖">
-                    <div class="arrow-left">
-                        <img src="./image/箭頭左.png" alt="箭頭">
-                    </div>
-                </div>
-                <div class="main-pic">
-                    <img src="./image/38796014605_1218c80bbf_e.jpg" alt="主圖">
-                </div>
-                <div class="second-pic">
-                    <img src="./image/20201215_1008 2.png" alt="右圖">
-                    <div class="arrow-right">
-                        <img src="./image/箭頭右.png" alt="箭頭">
-                    </div>
-                </div>
-            </div>
-            <div class="pic-introduce-area">
-                <div class="pic-introduce">
-                    <h2>大劇場</h2>
-                    <p>運輸模式會員不再品質是怎麼中間體現，企業醫生成為電視劇手冊尷尬模擬僅僅做什麼，觀念執法第一個雜誌，相對進行公佈最佳避免經過從事你能範圍為什麼。</p>
-                    <div class="watch-in-detail">
-                        <div class="watch-in-detail-block">
-                            <a href="#">詳細觀看</a>
-                            <div class="link-line"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- 關於我們 -->
+  <section>
+    <div class="about">
+      <div class="group">
+        <h2>關於我們</h2>
+        <div class="about_img">
+          <img src="./image/susan-q-yin-2JIvboGLeho-unsplash.jpg" alt="關於我們">
         </div>
+        <h3>本店理念:打造永續環保的空間</h3>
+        <p>本店以永續發展、環境保護為發展理念，致力推廣回收再利用。店內除了新書以外，也會舉辦各項展覽與演講，以及辦理二手書的回收業務...</p>
+        <div class="seemore">
+          <a href="./about.html">了解更多</a>
+        </div>
+      </div>
     </div>
-    <div class="event-news-background">
-        <div class="event-news">
-            <div class="event-title-area">
-                <div class="event-title">
-                    <h2>活動資訊</h2>
-                </div>
-            </div>
-            <div class="calendar-area">
-                <div class="calendar-bar">
-                    <div class="show-day">
-                        <div class="year">
-                            2022
-                        </div>
-                        <div class="month">
-                            七月
-                        </div>
-                        <div class="day">
-                            13號
-                        </div>
-                        <div class="week">
-                            [星期三]
-                        </div>
-                    </div>
-                    <div class="calendar">
-                        <div class="year-month-search">
-                            <div>
-                                <img src="./image/箭頭左 27px.png" alt="#">
-                            </div>
-                            <p>2022年</p>
-                            <p>七月</p>
-                            <div>
-                                <img src="./image/箭頭右 27px.png" alt="#">
-                            </div>
-                        </div>
-                        <div class="border-line"></div>
-                        <div class="calendar-table">
-                            <table>
-                                <tr>
-                                    <th>日</th>
-                                    <th>一</th>
-                                    <th>二</th>
-                                    <th>三</th>
-                                    <th>四</th>
-                                    <th>五</th>
-                                    <th>六</th>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>4</td>
-                                    <td>5</td>
-                                    <td>6</td>
-                                    <td>7</td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>9</td>
-                                    <td>10</td>
-                                    <td>11</td>
-                                    <td>12</td>
-                                    <td>13</td>
-                                    <td>14</td>
-                                </tr>
-                                <tr>
-                                    <td>15</td>
-                                    <td>16</td>
-                                    <td>17</td>
-                                    <td>18</td>
-                                    <td>19</td>
-                                    <td>20</td>
-                                    <td>21</td>
-                                </tr>
-                                <tr>
-                                    <td>22</td>
-                                    <td>23</td>
-                                    <td>24</td>
-                                    <td>25</td>
-                                    <td>26</td>
-                                    <td>27</td>
-                                    <td>28</td>
-                                </tr>
-                                <tr><td>29</td>
-                                    <td>30</td>
-                                    <td>31</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="calendar-serach">
-                        <div class="calendar-serach-place">
-                            <p>選擇時間</p>
-                            <div class="choose-time">
-                                <input type="text">
-                                <div class="choose-time-img">
-                                    <img src="./image/Schedule.png" alt="schedule-icon">
-                                </div>
-                            </div>
-                            <p>至</p>
-                            <div class="choose-time">
-                                <input type="text">
-                                <div class="choose-time-img">
-                                    <img src="./image/Schedule.png" alt="schedule-icon">
-                                </div>
-                            </div>
-                            <p>選擇類型</p>
-                            <div class="type">
-                                <div class="all-type">
-                                    <p>全 部</p>
-                                </div>
-                                <div class="exhibition">
-                                    <p>展 覽</p>
-                                </div>
-                                <div class="speech">
-                                    <p>演 講</p>
-                                </div>
-                            </div>
-                            <div class="search-button">
-                                <div class="search-button-icon">
-                                    <img src="./image/Search black.png" alt="search-icon">
-                                </div>
-                                <p>搜尋</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <!-- 展演空間介紹 -->
+    <div class="performance_space">
+      <h3>展演空間介紹</h3>
     </div>
-    <div class="exhibition-background">
-        <div class="exhibition">
-            <h3>展覽</h3>
-            <div class="exhibion-bar">
-                <div class="exhibition-item">
-                    <div class="exhibition-img">
-                        <img src="./image/活動圖片1.png" alt="活動一">
-                    </div>
-                    <h4>標題</h4>
-                    <p>2022-07-09~2022-09-28</p>
-                    <p>桃園市中壢區復興路46號9樓</p>
-                </div>
-                <div class="exhibition-item">
-                    <div class="exhibition-img">
-                        <img src="./image/活動圖片2.png" alt="活動二">
-                    </div>
-                    <h4>標題</h4>
-                    <p>2022-07-09~2022-09-28</p>
-                    <p>桃園市中壢區復興路46號9樓</p>
-                </div>
-                <div class="exhibition-item">
-                    <div class="exhibition-img">
-                        <img src="./image/活動圖片3.png" alt="活動三">
-                    </div>
-                    <h4>標題</h4>
-                    <p>2022-07-09~2022-09-28</p>
-                    <p>桃園市中壢區復興路46號9樓</p>
-                </div>
+    <div class="swiper Swiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./image/El_Ateneo_Grand_Splendid,_Buenos_Aires_(38796014605).jpg" alt="大劇場">
+          <div class="space_intro">
+            <h4>大劇場</h4>
+            <p>運輸模式會員不再品質是怎麼中間體現，企業醫生成為電視劇手冊尷尬模擬僅僅做什麼，觀念執法第一個雜誌，相對進行公佈最佳避免經過從事你能範圍為什麼。</p>
+            <div class="more_detail">
+              <a href="./about.html">了解更多</a>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="exhibition-background">
-        <div class="exhibition">
-            <h3>展覽</h3>
-            <div class="exhibion-bar">
-                <div class="exhibition-item">
-                    <div class="exhibition-img">
-                        <img src="./image/活動圖片4.png" alt="活動一">
-                    </div>
-                    <h4>標題</h4>
-                    <p>2022-07-09~2022-09-28</p>
-                    <p>桃園市中壢區復興路46號9樓</p>
-                </div>
-                <div class="exhibition-item">
-                    <div class="exhibition-img">
-                        <img src="./image/活動圖片5.png" alt="活動二">
-                    </div>
-                    <h4>標題</h4>
-                    <p>2022-07-09~2022-09-28</p>
-                    <p>桃園市中壢區復興路46號9樓</p>
-                </div>
-                <div class="exhibition-item">
-                    <div class="exhibition-img">
-                        <img src="./image/活動圖片6.png" alt="活動三">
-                    </div>
-                    <h4>標題</h4>
-                    <p>2022-07-09~2022-09-28</p>
-                    <p>桃園市中壢區復興路46號9樓</p>
-                </div>
+        <div class="swiper-slide">
+          <img src="./image/bookstorespace2.png">
+          <div class="space_intro">
+            <h4>書架劇場</h4>
+            <p>總體深刻財產日記數字新技術，壓縮你看哪裡保存開了能不能，電視台花園數量值得生氣也會，配合商務設為沉默剛才甚至明確他不，你可以我在，不禁事實。</p>
+            <div class="more_detail">
+              <a href="./about.html">了解更多</a>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="all-books-background">
-        <div class="all-books">
-            <div class="all-books-title">
-                <h2>所有書籍</h2>
+        <div class="swiper-slide">
+          <img src="./image/bookstorespace3.png">
+          <div class="space_intro">
+            <h4>舞台空間</h4>
+            <p>奇蹟答案加上學科看起來先進性效益，你還免費電影轎車小遊戲措施熟悉，放心他還這裡下午招商筆記本一面口氣，英雄圖文指出走到國產，微笑報告娛樂見。</p>
+            <div class="more_detail">
+              <a href="./about.html">了解更多</a>
             </div>
-            <div class="book-search">
-                <div class="book-classification">
-                    <div class="classification">中文書</div>
-                    <div class="classification">外文書</div>
-                    <div class="classification">參考書</div>
-                    <div class="classification">小 說</div>
-                    <div class="classification">雜 誌</div>
-                    <div class="classification">旅遊書</div>
-                    <div class="classification">漫 畫</div>
-                </div>
-                <div class="book-search-place">
-                    <input class="search-bar" type="text" placeholder="圖書搜尋">
-                    <button class="search-btn"><img src="./image/icons8-search-30 (2).png" alt="search-icon"></button>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
-    <div class="bookshelf-background">
-        <div class="bookshelf">
-            <h3>新書上架</h3>
-            <div class="book-column">
-                <div class="change-column-left">
-                    <img src="./image/箭頭左.png" alt="#">
-                </div>
-                <div class="book-presentation-area">
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/下雨的書店.png" alt="成為這樣的我">
-                        </div>
-                        <h4>下雨的書店</h4>
-                        <div class="
-                        slogan">出發！找回「夢之力」 一場閃亮亮、<br>
-                        華麗繽紛的冒險即將啟程！</div>
-                        <div class="author"> 日向理惠子 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/因果螺旋.png" alt="成為這樣的我">
-                        </div>
-                        <h4>因果螺旋</h4>
-                        <div class="
-                        slogan">所有事件的發生都其來有自，正確掌握原因，就可以有效控制謬誤產生。</div>
-                        <div class="author">陳建仁 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/高階覺察.png" alt="成為這樣的我">
-                        </div>
-                        <h4>高階覺察</h4>
-                        <div class="
-                        slogan">行為科學年度10大關注好書！<br>打造自我覺察的學習心思</div>
-                        <div class="author">史蒂芬．弗萊明 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="change-column-right">
-                    <img src="./image/箭頭右.png" alt="#">
-                </div>
-            </div>
-        </div>
+  </section>
+  <!-- 活動資訊 -->
+  <section>
+    <div class="event">
+      <h2>活動資訊</h2>
+      
     </div>
-    <div class="morebooks-background">
-        <div class="morebooks">
-            <a href="./books.html">>>>>了解更多</a>
-        </div>
-    </div>
-    <div class="bookshelf-background">
-        <div class="bookshelf">
-            <h3>排行榜</h3>
-            <div class="book-column">
-                <div class="change-column-left">
-                    <img src="./image/箭頭左.png" alt="#">
-                </div>
-                <div class="book-presentation-area">
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="change-column-right">
-                    <img src="./image/箭頭右.png" alt="#">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="morebooks-background">
-        <div class="morebooks">
-            <a href="./books.html">>>>>了解更多</a>
-        </div>
-    </div>
-    <div class="bookshelf-background">
-        <div class="bookshelf">
-            <h3>館長推薦</h3>
-            <div class="book-column">
-                <div class="change-column-left">
-                    <img src="./image/箭頭左.png" alt="#">
-                </div>
-                <div class="book-presentation-area">
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="change-column-right">
-                    <img src="./image/箭頭右.png" alt="#">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="morebooks-background">
-        <div class="morebooks">
-            <a href="./books.html">>>>>了解更多</a>
-        </div>
-    </div>
-    <div class="bookshelf-background">
-        <div class="bookshelf">
-            <h3>二手書專區</h3>
-            <div class="book-column">
-                <div class="change-column-left">
-                    <img src="./image/箭頭左.png" alt="#">
-                </div>
-                <div class="book-presentation-area">
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                    <div class="book">
-                        <div class="book-img">
-                            <img src="./image/蜜雪兒 歐巴馬.jpg" alt="成為這樣的我">
-                        </div>
-                        <h4>成為這樣的我: 蜜雪兒．歐巴馬</h4>
-                        <div class="
-                        slogan">「你的故事即是你的一切，永遠代表你、為你所有。」</div>
-                        <div class="author">蜜雪兒．歐巴馬 著</div>
-                        <div class="price-and-discount">
-                            <div class="discount">優惠</div>
-                            <div class="price">79</div>
-                            <div class="discount">折</div>
-                            <div class="price">230</div>
-                            <div class="discount">元</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="change-column-right">
-                    <img src="./image/箭頭右.png" alt="#">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="morebooks-background">
-        <div class="morebooks">
-            <a href="./books.html">>>>>了解更多</a>
-        </div>
-    </div>
-    <div class="contact-method-background">
-        <div class="contact-method">
-            <div class="connetction">
-                <div class="connetctiontext">
-                    <div class="title">
-                        <h2>聯絡我們</h2>
-                    </div>
-                    <div class="connetction-item">
-                        <div class="connetction-category">
-                            <p>地址</p>
-                        </div>
-                        <div class="connetction-detail">
-                            <p>320桃園市中壢區復興路46號9樓</p>
-                        </div>
-                    </div>
-                    <div class="connetction-item">
-                        <div class="connetction-category">
-                            <p>電話</p>
-                        </div>
-                        <div class="connetction-detail">
-                            <p>03-4251108</p>
-                        </div>
-                    </div>
-                    <div class="connetction-item">
-                        <div class="connetction-category">
-                            <p>信箱</p>
-                        </div>
-                        <div class="connetction-detail">
-                            <p>abc1234567@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="connetctionimg">
-                    <img src="./image/contact-map.png" alt="map">
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="footer-bar">
-            <div class="social-media">
-                <div class="facebook">
-                    <img src="./image/Facebook.png" alt="facebook">
-                </div>
-                <div class="twitter">
-                    <img src="./image/Twitter.png" alt="twitter">
-                </div>
-                <div class="instagram">
-                    <img src="./image/Instagram.png" alt="instagram">
-                </div>
-                <div class="youtube">
-                    <img src="./image/YouTube.png" alt="youtube">
-                </div>
-            </div>
-            <div class="copy-right">
-                <div class="footer-menu">
-                    <a href="./about.html">關於我們About</a>
-                    <a href="./books.html">所有書籍Books</a>
-                    <a href="./event.html">活動資訊Events</a>
-                    <a href="#">會員中心Member</a>
-                </div>
-                <p>地址:320桃園市中壢區復興路46號9樓</p>
-                <p>電話:03-4251108</p>
-                <p>Copyright © 2022 Eslite Corporation. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+  </section>
+  <!-- Swiper JS -->
+  <script src="./package/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".Swiper1", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      effect: 'fade',
+      followFinger: false,
+      grabCursor: true,
+      rewind: true,
+    });
+  </script>
+  <script>
+    var swiper = new Swiper(".Swiper2", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 500000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      effect: 'fade',
+      followFinger: false,
+      rewind: true,
+    });
+  </script>
 </body>
+
 </html>

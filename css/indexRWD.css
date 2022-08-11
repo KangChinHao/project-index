@@ -297,7 +297,6 @@ input::placeholder {
     padding-top: 30px;
     font-size: 24px;
     font-family: 'Noto Sans TC Regular';
-
 }
 
 .about p {
@@ -336,17 +335,19 @@ input::placeholder {
 
 /*---展演空間介紹---*/
 /* performance */
-.performance_space{
+.performance_space {
     text-align: center;
     padding: 60px 0 0;
     font-size: 28px;
     font-family: 'Noto Sans TC Medium';
 }
-.Swiper2{
+
+.Swiper2 {
     height: 600px;
     margin-top: 40px;
 }
-.space_intro{
+
+.space_intro {
     width: 380px;
     height: 200px;
     background-color: #a47148ce;
@@ -355,13 +356,16 @@ input::placeholder {
     display: flex;
     flex-direction: column;
 }
-.space_intro h4{
+
+.space_intro h4 {
     padding-top: 10px;
     font-size: 28px;
     font-family: 'Noto Sans TC Regular';
     color: #ffffffc9;
+    letter-spacing: 10px;
 }
-.space_intro p{
+
+.space_intro p {
     padding: 20px 0;
     font-size: 18px;
     text-align: left;
@@ -371,21 +375,25 @@ input::placeholder {
     color: #ffffffc9;
     flex-grow: 1;
 }
-.space_intro a{
+
+.space_intro a {
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 1px;
 }
-.more_detail{
+
+.more_detail {
     display: flex;
     justify-content: end;
     align-items: center;
 }
-.more_detail a{
+
+.more_detail a {
     color: #ffffff;
     position: relative;
 }
-.more_detail a:hover::after{
+
+.more_detail a:hover::after {
     content: '';
     top: 22px;
     left: 0;
@@ -395,14 +403,34 @@ input::placeholder {
     animation: ltr 1s;
     animation-fill-mode: forwards;
 }
-@keyframes ltr{
-    0%{
+
+/*---活動資訊---*/
+.event h2 {
+    padding: 20px;
+    font-size: 32px;
+    font-family: 'Noto Sans TC Medium';
+}
+
+.event h2::after {
+    display: block;
+    content: '';
+    width: 2.5rem;
+    min-width: 65px;
+    height: 3px;
+    border-radius: 999px;
+    background-color: black;
+    margin-top: 5px;
+}
+@keyframes ltr {
+    0% {
         width: 0px;
     }
-    100%{
+
+    100% {
         width: 100%;
     }
 }
+
 @media screen and (min-width :768px) {
     header {
         display: flex;
