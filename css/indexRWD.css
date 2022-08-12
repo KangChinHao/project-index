@@ -405,6 +405,7 @@ input::placeholder {
 }
 
 /*---活動資訊---*/
+/*---日曆搜尋---*/
 .event h2 {
     padding: 20px;
     font-size: 32px;
@@ -421,6 +422,103 @@ input::placeholder {
     background-color: black;
     margin-top: 5px;
 }
+.calendar_search{
+    display: flex;
+    flex-direction: column;
+    
+}
+.show_calendar{
+    width: 300px;
+    height: 300px;
+    background-color: #A47148;
+    margin: 0 auto;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Noto Sans TC Medium';
+}
+#show_year{
+    font-size: 28px;
+}
+#show_month{
+    margin: 20px 0;
+    font-size: 36px;
+}
+#show_date{
+    font-size: 64px;
+}
+#show_week{
+    font-size: 28px;
+    padding-top: 30px;
+}
+.calendar{
+    width: 300px;
+    background-color: #ffffffee;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+.event h3{
+    text-align: center;
+    padding: 60px 0 40px;
+    font-size: 28px;
+    font-family: 'Noto Sans TC Medium';
+}
+.event h4{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Noto Sans TC Medium';
+}
+.card_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 0;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    margin: 0 15px 20px;
+    border: 1px solid #000000d0;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.card_img{
+    width: 100%;
+}
+.card_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.card h5{
+    padding: 10px 5px; 
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Noto Sans TC Medium';
+}
+.card p{
+    padding: 10px 10px 0; 
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Noto Sans TC Light';
+    flex-grow: 1;
+}
+.time_limit{
+    padding: 20px 10px 20px; 
+    font-size: 15px;
+    font-family: 'Noto Sans TC Light';
+}
+.card_row .card:nth-child(2){
+    display: none;
+}
+.card_row .card:nth-child(3){
+    display: none;
+}
 @keyframes ltr {
     0% {
         width: 0px;
@@ -435,7 +533,6 @@ input::placeholder {
     header {
         display: flex;
     }
-
     .menu {
         display: flex;
         background-color: transparent;
@@ -506,6 +603,9 @@ input::placeholder {
     .phone_type {
         display: none;
     }
+    .card_row .card:nth-child(2){
+        display: flex;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -521,6 +621,9 @@ input::placeholder {
         position: absolute;
         left: 40px;
     }
+    .card_row .card:nth-child(3){
+        display: flex;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -535,5 +638,14 @@ input::placeholder {
     .logo {
         position: absolute;
         left: 80px;
+    }
+    .card{
+        width: 300px;
+        height: 350px;
+        margin: 0 30px 20px;
+        border: 1px solid #000000d0;
+        border-radius: 15px 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
     }
 }

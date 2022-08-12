@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./vanilla-calendar-main/build/vanilla-calendar.min.js"></script>
+    <link rel="stylesheet" href="./vanilla-calendar-main/build/vanilla-calendar.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .calendar{
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar" id="calendar"></div>
+    <script>
+        // CSS Selector
+        const calendar = new VanillaCalendar('#calendar', {
+            actions: {
+            clickDay(e,dates) {
+                console.log(dates)
+            },
+        },
+        });
+        calendar.init();
+        calendar.settings.lang = 'zh-TW';
+        calendar.update();
+        console.log(calendar);
+    </script>
+
+<!-- 參數調整 https://vanilla-calendar.frontend.uvarov.tech/en/documentation/ -->
+</body>
+</html>

@@ -2,168 +2,193 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>首頁 | 閱樹</title>
-  <link rel="stylesheet" href="./css/reset css.css">
-  <link rel="stylesheet" href="./package/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./css/indexRWD.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁 | 閱樹</title>
+    <link rel="stylesheet" href="./css/reset css.css">
+    <link rel="stylesheet" href="./package/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/indexRWD.css">
+    <link rel="stylesheet" href="./vanilla-calendar-main/build/vanilla-calendar.min.css">
+    <script src="./vanilla-calendar-main/build/vanilla-calendar.min.js"></script>
 
 </head>
 
 <body>
-  <!-- 導覽列 -->
-  <header>
-    <input type="checkbox" id="menu_switch" class="menu_checkbox">
-    <label for="menu_switch" class="menu_switch">
-      <span class="burger_line"></span>
-      <span class="burger_line"></span>
-      <span class="burger_line"></span>
-    </label>
-    <h1 class="logo">
-      <a href="#"><img src="./image/logo150x70.png" alt="logo"></a>
-    </h1>
-    <ul class="menu">
-      <div class="search_row">
-        <li class="search">
-          <div class="search_item">
-            <input class="search_bar" type="text" placeholder="圖書搜尋" style="color:#ffffffee"
-              onfocus="this.placeholder=''" onblur="this.placeholder='圖書搜尋'">
-            <button class="search_btn"><img src="./image/Search.png" alt="search-icon"></button>
-          </div>
-        </li>
-      </div>
-      <div class="nav_items">
-        <li class="nav_item"><a href="./about.html">關於我們<br>About</a></li>
-        <li class="nav_item"><a href="./event.html">活動資訊<br>Event</a></li>
-        <li class="nav_item"><a href="./books.html">所有書籍<br>Books</a></li>
-        <li class="nav_item member_icon"><a href="./books.html"><img src="./image/Member.png" alt="會員中心"></a></li>
-        <li class="nav_item phone_type"><a href="./member.html">會員中心<br>Member</a></li>
-      </div>
-    </ul>
-  </header>
-  <!-- Banner Swiper -->
-  <div class="swiper Swiper1">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="./image/E6u8WWoVEAEmqAj.png" alt="書架劇場">書架劇場</div>
-      <div class="swiper-slide"><img src="./image/banner2.png" alt="大劇場">大劇場</div>
-      <div class="swiper-slide"><img src="./image/banner3.png" alt="書籍呈列區">書籍呈列區</div>
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
-  </div>
-  <!-- 關於我們 -->
-  <section>
-    <div class="about">
-      <div class="group">
-        <h2>關於我們</h2>
-        <div class="about_img">
-          <img src="./image/susan-q-yin-2JIvboGLeho-unsplash.jpg" alt="關於我們">
-        </div>
-        <h3>本店理念:打造永續環保的空間</h3>
-        <p>本店以永續發展、環境保護為發展理念，致力推廣回收再利用。店內除了新書以外，也會舉辦各項展覽與演講，以及辦理二手書的回收業務...</p>
-        <div class="seemore">
-          <a href="./about.html">了解更多</a>
-        </div>
-      </div>
-    </div>
-  <!-- 展演空間介紹 -->
-    <div class="performance_space">
-      <h3>展演空間介紹</h3>
-    </div>
-    <div class="swiper Swiper2">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="./image/El_Ateneo_Grand_Splendid,_Buenos_Aires_(38796014605).jpg" alt="大劇場">
-          <div class="space_intro">
-            <h4>大劇場</h4>
-            <p>運輸模式會員不再品質是怎麼中間體現，企業醫生成為電視劇手冊尷尬模擬僅僅做什麼，觀念執法第一個雜誌，相對進行公佈最佳避免經過從事你能範圍為什麼。</p>
-            <div class="more_detail">
-              <a href="./about.html">了解更多</a>
+    <!-- 導覽列 -->
+    <header>
+        <input type="checkbox" id="menu_switch" class="menu_checkbox">
+        <label for="menu_switch" class="menu_switch">
+            <span class="burger_line"></span>
+            <span class="burger_line"></span>
+            <span class="burger_line"></span>
+        </label>
+        <h1 class="logo">
+            <a href="#"><img src="./image/logo150x70.png" alt="logo"></a>
+        </h1>
+        <ul class="menu">
+            <div class="search_row">
+                <li class="search">
+                    <div class="search_item">
+                        <input class="search_bar" type="text" placeholder="圖書搜尋" style="color:#ffffffee"
+                            onfocus="this.placeholder=''" onblur="this.placeholder='圖書搜尋'">
+                        <button class="search_btn"><img src="./image/Search.png" alt="search-icon"></button>
+                    </div>
+                </li>
             </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./image/bookstorespace2.png">
-          <div class="space_intro">
-            <h4>書架劇場</h4>
-            <p>總體深刻財產日記數字新技術，壓縮你看哪裡保存開了能不能，電視台花園數量值得生氣也會，配合商務設為沉默剛才甚至明確他不，你可以我在，不禁事實。</p>
-            <div class="more_detail">
-              <a href="./about.html">了解更多</a>
+            <div class="nav_items">
+                <li class="nav_item"><a href="./about.html">關於我們<br>About</a></li>
+                <li class="nav_item"><a href="./event.html">活動資訊<br>Event</a></li>
+                <li class="nav_item"><a href="./books.html">所有書籍<br>Books</a></li>
+                <li class="nav_item member_icon"><a href="./books.html"><img src="./image/Member.png" alt="會員中心"></a>
+                </li>
+                <li class="nav_item phone_type"><a href="./member.html">會員中心<br>Member</a></li>
             </div>
-          </div>
+        </ul>
+    </header>
+    <!-- Banner Swiper -->
+    <div class="swiper Swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./image/E6u8WWoVEAEmqAj.png" alt="書架劇場">書架劇場</div>
+            <div class="swiper-slide"><img src="./image/banner2.png" alt="大劇場">大劇場</div>
+            <div class="swiper-slide"><img src="./image/banner3.png" alt="書籍呈列區">書籍呈列區</div>
         </div>
-        <div class="swiper-slide">
-          <img src="./image/bookstorespace3.png">
-          <div class="space_intro">
-            <h4>舞台空間</h4>
-            <p>奇蹟答案加上學科看起來先進性效益，你還免費電影轎車小遊戲措施熟悉，放心他還這裡下午招商筆記本一面口氣，英雄圖文指出走到國產，微笑報告娛樂見。</p>
-            <div class="more_detail">
-              <a href="./about.html">了解更多</a>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 關於我們 -->
+    <section>
+        <div class="about">
+            <div class="group">
+                <h2>關於我們</h2>
+                <div class="about_img">
+                    <img src="./image/susan-q-yin-2JIvboGLeho-unsplash.jpg" alt="關於我們">
+                </div>
+                <h3>本店理念:打造永續環保的空間</h3>
+                <p>本店以永續發展、環境保護為發展理念，致力推廣回收再利用。店內除了新書以外，也會舉辦各項展覽與演講，以及辦理二手書的回收業務...</p>
+                <div class="seemore">
+                    <a href="./about.html">了解更多</a>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-  </section>
-  <!-- 活動資訊 -->
-  <section>
-    <div class="event">
-      <h2>活動資訊</h2>
-      
-    </div>
-  </section>
-  <!-- Swiper JS -->
-  <script src="./package/swiper-bundle.min.js"></script>
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".Swiper1", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      effect: 'fade',
-      followFinger: false,
-      grabCursor: true,
-      rewind: true,
-    });
-  </script>
-  <script>
-    var swiper = new Swiper(".Swiper2", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 500000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      effect: 'fade',
-      followFinger: false,
-      rewind: true,
-    });
-  </script>
+        <!-- 展演空間介紹 -->
+        <div class="performance_space">
+            <h3>展演空間介紹</h3>
+        </div>
+        <div class="swiper Swiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./image/El_Ateneo_Grand_Splendid,_Buenos_Aires_(38796014605).jpg" alt="大劇場">
+                    <div class="space_intro">
+                        <h4>大劇場</h4>
+                        <p>運輸模式會員不再品質是怎麼中間體現，企業醫生成為電視劇手冊尷尬模擬僅僅做什麼，觀念執法第一個雜誌，相對進行公佈最佳避免經過從事你能範圍為什麼。</p>
+                        <div class="more_detail">
+                            <a href="./about.html">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/bookstorespace2.png">
+                    <div class="space_intro">
+                        <h4>書架劇場</h4>
+                        <p>總體深刻財產日記數字新技術，壓縮你看哪裡保存開了能不能，電視台花園數量值得生氣也會，配合商務設為沉默剛才甚至明確他不，你可以我在，不禁事實。</p>
+                        <div class="more_detail">
+                            <a href="./about.html">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/bookstorespace3.png">
+                    <div class="space_intro">
+                        <h4>舞台空間</h4>
+                        <p>奇蹟答案加上學科看起來先進性效益，你還免費電影轎車小遊戲措施熟悉，放心他還這裡下午招商筆記本一面口氣，英雄圖文指出走到國產，微笑報告娛樂見。</p>
+                        <div class="more_detail">
+                            <a href="./about.html">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- 活動資訊 -->
+    <section>
+        <div class="event">
+            <h2>活動資訊</h2>
+            <div class="calendar_search">
+                <div class="show_calendar">
+                    <div id="show_year"></div>
+                    <div id="show_month"></div>
+                    <div id="show_date"></div>
+                    <div id="show_week"></div>
+                </div>
+                <div class="calendar" id="calendar"></div>
+            </div>
+            <h3>最新活動</h3>
+            <h4>展覽</h4>
+            <div class="card_row">
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./image/eventImg1.png" alt="活動圖片">
+                    </div>
+                    <h5>「開山撫番」—清帝國與臺灣原住民族</h5>
+                    <p>你還想到電器加工適用於上去星座當你本月請點擊依據雲林，上次合適，因為多媒體，衝。</p>
+                    <div class="time_limit">2022/08/30~2022/09/10</div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./image/eventImg2.png" alt="活動圖片">
+                    </div>
+                    <h5>館藏善本古籍選粹─梵筴與經摺</h5>
+                    <p>不敢給我們引用怪物本人尤其，財富一本求助情感，主營同一，山西是在例如喜愛，出版。</p>
+                    <div class="time_limit">2022/08/30~2022/09/10</div>
+                </div>
+                <div class="card card_size_display">
+                    <div class="card_img ">
+                        <img src="./image/eventImg4.png" alt="活動圖片">
+                    </div>
+                    <h5>經典之美—新媒體藝術展</h5>
+                    <p>包含藥品形象東西衣服厲害將在普遍，出發輸出前面只好他人同志程度檔案所有人存儲合。</p>
+                    <div class="time_limit">2022/08/30~2022/09/10</div>
+                </div>
+            </div>
+            <h4>演講</h4>
+            <div class="card_row">
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./image/eventImg4.png" alt="活動圖片">
+                    </div>
+                    <h5>2022夏日沙龍講座，8月隆重登場!!</h5>
+                    <p>短信早上，因素稱為很快回來青草湖圖書館見到會在病毒環境，晚上兩次一份下面諾基亞。</p>
+                    <div class="time_limit">2022/08/30~2022/09/10</div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./image/eventImg5.png" alt="活動圖片">
+                    </div>
+                    <h5>「古物揭密—文物科學鑑識」展覽系列演講與導覽活動</h5>
+                    <p>親愛的深深做法過了以外通信我覺得最好後果加速便利商店，二手真實性傳播上市，到達。</p>
+                    <div class="time_limit">2022/08/30~2022/09/10</div>
+                </div>
+                <div class="card card_size_display">
+                    <div class="card_img ">
+                        <img src="./image/eventImg6.png" alt="活動圖片">
+                    </div>
+                    <h5>專題講座: 鏤繪集錦-山水人物特展賞析</h5>
+                    <p>級別絶對小孩來電沒事祝福異常該公司準確未知，要有在我說到法規，到了一條，山西肌。</p>
+                    <div class="time_limit">2022/08/30~2022/09/10</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Swiper JS -->
+    <script src="./package/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="./javascripe/index.js"></script>
 </body>
 
 </html>
