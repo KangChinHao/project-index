@@ -24,10 +24,6 @@ var swiper = new Swiper(".Swiper1", {
 var swiper = new Swiper(".Swiper2", {
     spaceBetween: 30,
     centeredSlides: true,
-    autoplay: {
-        delay: 500000,
-        disableOnInteraction: false,
-    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -131,3 +127,35 @@ calendar.init();
 calendar.settings.lang = 'zh-TW';
 calendar.update();
 console.log(calendar);
+
+// 所有書籍 搜尋彈出式選單
+function $id(id){
+    return document.getElementById(id);
+};
+function PHnone(){
+    $id("book_search_bar").placeholder = "";
+    $id("search_menu").style.display = "flex";
+};
+document.getElementById('book_search_bar').onfocus = PHnone;
+function PHshow(){
+    $id("book_search_bar").placeholder = "圖書搜尋";
+    $id("search_menu").style.display = "none";
+};
+document.getElementById('book_search_bar').onblur = PHshow;
+
+//書架
+var swiper = new Swiper(".Swiper3", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    effect: 'fade',
+    followFinger: false,
+    rewind: true,
+});
