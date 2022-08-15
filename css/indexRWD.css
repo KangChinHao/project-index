@@ -491,6 +491,7 @@ input::placeholder {
 .vanilla-calendar-content{
     display: block;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .event h3{
     text-align: center;
