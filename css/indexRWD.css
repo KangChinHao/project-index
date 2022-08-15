@@ -631,6 +631,9 @@ input::placeholder {
     margin-top: 40px;
     background: linear-gradient(180deg,#FFEDD8 55%,#F3D5B5 45%);
 }
+.bookshelf{
+    background: linear-gradient(180deg,#FFEDD8 55%,#F3D5B5 45%);
+}
 .short{
     height: 330px;
 }
@@ -639,7 +642,8 @@ input::placeholder {
     height: 100%;
     font-family: 'Noto Sans TC Light';
     letter-spacing: 1px;
-    padding: 0 10px;
+    margin: 0 10px;
+    padding-bottom: 15px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -702,6 +706,18 @@ input::placeholder {
 }
 .book:nth-child(4n+4){
     display:none;
+}
+.book_style{
+    margin: 10px auto 0;
+    max-width: 1440px;
+    padding-right: 20px;
+}
+.book_style a{
+    color: #000;
+}
+.book_style a:hover::after{
+    background-color: #000;
+    top: 18px;
 }
 @media screen and (min-width :768px) {
     header {
@@ -793,6 +809,10 @@ input::placeholder {
     .book:nth-child(4n+2){
         display:flex;
     }
+    .books h3{
+        text-align: left;
+        padding-left: 20px;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -813,6 +833,9 @@ input::placeholder {
     }
     .book:nth-child(4n+3){
         display:flex;
+    }
+    .books h3{
+        padding-left: 30px;
     }
 }
 
@@ -844,5 +867,8 @@ input::placeholder {
     }
     .book:nth-child(4n+4){
         display:flex;
+    }
+    .books h3{
+        padding-left: 40px;
     }
 }
