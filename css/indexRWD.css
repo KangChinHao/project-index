@@ -481,10 +481,12 @@ input::placeholder {
 }
 .calendar{
     width: 300px;
-    height: 400px;
+    height: 200px;
     background-color: #ffffffee;
     margin: 20px auto;
     padding: 20px 0;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 .event h3{
     text-align: center;
@@ -590,6 +592,8 @@ input::placeholder {
     height: 40px;
     outline: none;
     color: #ffffffee;
+    border-radius: 0;
+    -webkit-appearance:none;
 }
 .book_search_btn{
     width: 40px;
