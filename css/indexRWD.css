@@ -487,9 +487,8 @@ input::placeholder {
     min-height: -webkit-fill-available;
 }
 .vanilla-calendar-days{
-    -ms-grid-columns: (1fr)[7];
+    -ms-grid-columns: (1fr)[];
     grid-template-columns: repeat(7, 1fr);
-
 }
 .vanilla-calendar-content{
     display: block;
