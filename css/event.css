@@ -20,6 +20,8 @@ a {
 }
 
 .bread {
+    font-family: 'Noto Sans TC Light';
+    font-size: 13px;
     padding-top: 30px;
     padding-left: 20px;
 }
