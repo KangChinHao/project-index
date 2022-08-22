@@ -235,31 +235,237 @@ a {
     color: #000;
 }
 
+/* 二手書專區 */
+.oldbooks {
+    padding-top: 60px;
+}
+
+.oldbooks h2 {
+    padding-left: 20px;
+    font-size: 32px;
+    font-family: 'Noto Sans TC Medium';
+}
+
+.oldbooks h2::after {
+    display: block;
+    content: '';
+    width: 2.5rem;
+    min-width: 65px;
+    height: 3px;
+    border-radius: 999px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+/* 理由 */
+.purpose {
+    padding: 60px 0px 0;
+}
+
+.purposeimg {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.purposeimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.purposetext h3 {
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: 'Noto Sans TC Regular';
+    text-align: center;
+}
+
+.textarea {
+    width: 100%;
+    background-color: rgba(132, 79, 28, 0.9);
+}
+
+.purposetext p {
+    margin-top: 20px;
+    padding: 20px 20px 20px 40px;
+    display: flex;
+    align-items: center;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.74);
+    font-family: 'Noto Sans TC Light';
+}
+
+/* 二手書書架 */
+
+.oldbookshelf {
+    margin-top: 80px;
+}
+
+.oldbookshelf h3 {
+    font-family: 'Noto Sans TC Regular';
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+/* 收購書籍 */
+.donatebook {
+    width: 100%;
+    margin: auto;
+}
+
+.title_m{
+    margin-top: 40px;
+}
+
+.process {
+    text-align: center;
+    padding: 60px;
+}
+
+.processtitle {
+    background-color: rgba(132, 79, 28, 0.9);
+    padding: 10px;
+}
+
+.processtitle h4 {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.processtext {
+    background-color: #EDE3D0;
+    padding: 20px;
+}
+
+.processtext p {
+    color: rgba(107, 107, 107, 0.85);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Noto Sans TC';
+}
+
+.processtext .title {
+    color: #FF8A00;
+    font-size: 18px;
+    font-family: 'Noto Sans TC';
+    line-height: 22px;
+}
+
+.question {
+    background-color: #4E3824;
+    padding: 20px 0;
+}
+
+.question p {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
 @media screen and (min-width:768px) {
+
     /* 書架 */
-    .book:nth-child(4n+2){
-        display:flex;
+    .book:nth-child(4n+2) {
+        display: flex;
     }
-    .books h3{
+
+    .books h3 {
         text-align: left;
         padding-left: 20px;
     }
+
+    /* 二手書專區 */
+    .purpose {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        position: relative;
+        align-items: center;
+    }
+
+    .purposeimg {
+        width: 300px;
+        height: 350px;
+        position: relative;
+        left: 70px;
+        z-index: 1;
+    }
+
+    .purposetext {
+        position: relative;
+        top: 150px;
+    }
+
+    .textarea {
+        width: 330px;
+    }
+
+    .oldbookshelf {
+        margin-top: 200px;
+    }
+
 }
 
 @media screen and (min-width:1024px) {
-    .book:nth-child(4n+3){
-        display:flex;
+
+    /* 書架 */
+    .book:nth-child(4n+3) {
+        display: flex;
     }
-    .books h3{
+
+    .books h3 {
         padding-left: 30px;
+    }
+
+    /* 二手書專區 */
+    .purpose {
+        width: 1000px;
+    }
+
+    .purposeimg {
+        width: 400px;
+        height: 450px;
+    }
+
+    .textarea {
+        width: 480px;
+    }
+    .oldbookshelf {
+        margin-top: 80px;
     }
 }
 
 @media screen and (min-width:1200px) {
-    .book:nth-child(4n+4){
-        display:flex;
+
+    /* 書架 */
+    .book:nth-child(4n+4) {
+        display: flex;
     }
-    .books h3{
+
+    .books h3 {
         padding-left: 80px;
+    }
+
+    /* 二手書專區 */
+    .purpose {
+        width: 1200px;
+    }
+
+    .purposetext {
+        position: relative;
+        top: 150px;
+        right: 80px;
+    }
+
+    .textarea {
+        width: 550px;
+    }
+
+    .oldbookshelf h3{
+        padding-left: 60px;
+    }
+
+    /* 收購書籍 */
+    .donatebook {
+        width: 1200px;
     }
 }
