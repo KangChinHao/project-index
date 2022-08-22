@@ -1,0 +1,25 @@
+.navbarbac {
+    width: 100%;
+    height: 70px;
+}
+
+.navbarbac img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.bread {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.bread a {
+    text-decoration: none;
+    color: black;
+}
+
+.bread a:hover {
+    text-decoration: underline;
+}
