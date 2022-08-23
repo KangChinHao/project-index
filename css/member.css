@@ -1,0 +1,70 @@
+.login {
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'NOoto Sans TC Medium';
+}
+
+.title {
+    text-align: left;
+    padding-left: 80px;
+    font-size: 22px;
+}
+
+.text_area {
+    padding-top: 30px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.text_area input {
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.text_area input:focus {
+    outline: none;
+}
+
+.register{
+    padding-top: 30px;
+    padding-left: 130px;
+    margin-bottom: 30px;
+}
+
+.register a {
+    padding-left: 10px;
+}
+
+.another_sign{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.another_sign div{
+    margin: 0 10px;
+}
+
+@media screen and (min-width:1024px) {
+    .title {
+        padding-left: 200px;
+    }
+    .text_area input {
+        width: 300px;
+    }
+    .register{
+        padding-top: 30px;
+        padding-left: 230px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .title {
+        padding-left: 300px;
+    }
+}
